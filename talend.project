@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendProperties="http://www.talend.org/properties">
+  <TalendProperties:Project xmi:id="_BvaQsYq0EeqGoq6ydRDrAQ" label="SALESFORCE" description="SALESFORCE - Monetica" language="java" technicalLabel="SALESFORCE" creationDate="2020-01-21T14:28:13.819+0100" author="_BvaQsoq0EeqGoq6ydRDrAQ" productVersion="Talend Data Integration-7.2.1.20190620_1446" url="{&quot;commitLogPattern&quot;:&quot;{0}&quot;,&quot;location&quot;:&quot;http://svn.arquitectura.cetelem.es/talend/SALESFORCE&quot;,&quot;login&quot;:&quot;a1us_p002&quot;,&quot;passwd&quot;:&quot;rnw8Vxc2cxFA87Y1C3H2HcURjND6dNw51ltGyweFAZQ=&quot;,&quot;settings&quot;:&quot;000&quot;,&quot;storage&quot;:&quot;svn&quot;}" type="DI" itemsRelationVersion="1.3" bigData="false">
+    <componentsSettings xmi:id="_6zt0oBhzEeuU96XDl6d_pw" name="DI|tHashOutput" family="Technical"/>
+    <componentsSettings xmi:id="_6zubsBhzEeuU96XDl6d_pw" name="DI|tHashInput" family="Technical"/>
+    <migrationTask xmi:id="_E6XaEWuuEeuJzfQoIqM-4Q" id="org.talend.repository.model.migration.CheckProductVersionMigrationTask" breaks="7.1.0" version="7.1.1"/>
+  </TalendProperties:Project>
+  <TalendProperties:User xmi:id="_BvaQsoq0EeqGoq6ydRDrAQ" login="dpto-planificacion.informatica@cetelem.es" firstName="Departamento" lastName="Planificación Informática" type="DI" additionnalData="{}"/>
+  <TalendProperties:User xmi:id="_CGvLkIq0EeqGoq6ydRDrAQ" login="IT-monetica-mdp.informatica@cetelem.es" firstName="Monetica" lastName="Monetica" type="DI" additionnalData="{}"/>
+  <TalendProperties:User xmi:id="_vOEDIYq4EeqZweiQgxlq4A" login="desarrollo-ci@cetelem.es" firstName="DPTO CI" lastName="Dpto CI" type="DI" additionnalData="{}"/>
+  <TalendProperties:User xmi:id="_WEKxEbuNEeqg_N44dLjwow" login="user@talend.com"/>
+  <TalendProperties:User xmi:id="_OHtHoP22EeqZcLgMcS-jzQ" login="javier.rubio@ext.cetelem.es"/>
+  <TalendProperties:User xmi:id="_2xCJ8FLCEey3et5S2lBiyw" login="dsr-evolplus@cetelem.es" firstName="dpto DRS HOST" lastName="HOst" type="DI" additionnalData="{}"/>
+  <TalendProperties:User xmi:id="_bGszQNHqEeyt3sW7CUgJHg" login="isabel.herrasti@cetelem.es" firstName="Isabel" lastName="Herrasti" type="DI" additionnalData="{}"/>
+  <TalendProperties:User xmi:id="_bGszQdHqEeyt3sW7CUgJHg" login="isabel.herrasti@cetelem.es" firstName="Isabel" lastName="Herrasti" type="DI" additionnalData="{}"/>
+  <TalendProperties:User xmi:id="_bGuBYNHqEeyt3sW7CUgJHg" login="ignacio.delgadoros@cetelem.es" firstName="Ignacio" lastName="Delgado" type="DI" additionnalData="{}"/>
+  <TalendProperties:User xmi:id="_bGuBYdHqEeyt3sW7CUgJHg" login="olga.sanchez@cetelem.es" firstName="Olga" lastName="Sanchez" type="DI" additionnalData="{}"/>
+</xmi:XMI>
