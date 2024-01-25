@@ -1,0 +1,761 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+  <meta content="text/html; charset=ISO-8859-1"
+ http-equiv="content-type">
+  <title>Readme.html</title>
+  <style>
+  body 		{ background-color: #FFFEF2; margin: 0px; padding: 0px; padding-left: 0.5em;font-family: "Times New Roman";}
+    table 		{text-align: left; width: 100%; margin-top: 0.0em;} 
+    td 		{vertical-align: top;} 
+    h3 		{margin: 0px; font-size: 100%;}
+    h4 		{margin: 0px;}
+    h5		{margin: 0px;}
+    ul {margin-top: 0px;}
+    .td1 		{width: 200px;}
+    .tdchk 		{width: 2em;}
+    .tdshort 	{width: 4em;}
+    .indent1	{margin-left: 40px;}
+    .indent2 	{margin-left: 20px;}
+    .opts		{text-decoration: underline;}	
+    .relopts 	{text-decoration: underline;} 
+    .sep		{margin: 0px;}
+  </style>
+</head>
+<body>
+<h3><a name="Introduction"></a>TConsole 2.7<br>
+<br>
+</h3>
+<div class="indent1">TConsole plug-in enables Total Commander to have
+embedded command interpreter window on top of&nbsp; file panel. </div>
+<br>
+<div class="indent1">
+<h4>Requirements:</h4>
+<div class="indent2"> Total Commander 7.5 or higher<br>
+Windows XP or higher </div>
+</div>
+<br>
+<hr>
+<h3><a name="Installation"></a>Installation</h3>
+<div class="indent1">Add TConsole.wfx plugin in
+Configuration/Options|Plugins|File system plugins(.WFX).<br>
+<br>
+</div>
+<br>
+<hr>
+<h3><a name="TConsole_Activation"></a>TConsole Activation</h3>
+<div class="indent1">TConsole utilizes file system plug-in interface,
+it is activated by selection of "TConsole" entry under "Network &amp;
+Plugins" or command "cd \\\TConsole". <br>
+TConsole window is displayed on top of the active file panel.
+TConsole starts command shell specified by <a href="#Shell">Shell</a>.<br>
+<br>
+<span class="relopts">Related options:</span>&nbsp; <a href="#Shell">Shell</a>,
+<a href="#Start_in_Direct_Mode">Start in Direct Mode</a>, <a
+ href="#Change_Console_Width">Change Console Width</a><br>
+<span class="opts"></span></div>
+<hr>
+<h3><a name="TConsole_Deactivation"></a>TConsole Deactivation</h3>
+<div class="indent1"> TConsole is deactivated by switching the
+underlying file panel to another directory. TConsole window becomes
+hidden. Termination of the TConsole running shel and its child
+processes depends on <a href="#Close_Console_on_Hide">Close Console on
+Hide</a> option.<br>
+<br>
+<span class="relopts">Related options:</span>&nbsp; <a
+ href="#Close_Console_on_Hide">Close Console on Hide</a>, <a
+ href="#Brief_View_On_Hide">Brief View On Hide</a><br>
+<span class="opts"></span></div>
+<br>
+<hr> <br>
+<h4><a name="Keyboard_input"></a>Keyboard Input<br>
+</h4>
+<div class="indent1"> There are two possible key input modes:<br>
+<table border="0" cellpadding="0" cellspacing="0">
+  <tbody>
+    <tr>
+      <td class="td1"><a name="Command_Mode"></a>Command Mode</td>
+      <td>input is redirected to Total Commander's command line edit
+box. On hitting "Enter", the contents of command line edit box is sent
+to the shell running in TConsole.</td>
+    </tr>
+    <tr>
+      <td class="td1"><a name="Direct_Mode"></a>Direct Mode</td>
+      <td>all keyboard input (except keys defined in&nbsp; <a
+ href="#Forward_Keys_to_TC">Forward Keys to TC</a>) is going directly
+to the shell running in TConsole.<br>
+      </td>
+    </tr>
+  </tbody>
+</table>
+<br>
+<span class="relopts">Related options:</span>&nbsp;<a
+ href="#Command_Mode">Command Mode</a>, <a href="#Direct_Mode">Direct
+Mode</a>, <a href="#Keyboard">Keyboard</a><br>
+</div>
+<br>
+<hr> <br>
+<h4><a name="Mouse_Input"></a>Mouse Input</h4>
+<div class="indent1">TConsole supports <a href="#Text_selection">Text
+Selection</a>, <a href="#Clipboard">Clipboard</a> operations and <a
+ href="#Context_Menu">Context Menu</a>&nbsp; by using mouse.<br>
+<br>
+If <a href="usage.html.html#Direct_Mode">Direct Mode</a> is active, <a
+ href="usage.html.html#Context_Menu">Context Menu</a> requires a long
+press on the mouse right button (short press is reserved to <a
+ href="usage.html.html#QuickEdit_Mode">QuickEdit Mode</a> Copy/Paste)<br>
+<br>
+<span class="relopts">Related options:</span> <a
+ href="usage.html.html#QuickEdit_Mode">QuickEdit Mode</a> </div>
+<br>
+<hr> <br>
+<h4><a name="Text_selection"></a>Text Selection</h4>
+<div class="indent1"> Selection of text block is done by moving mouse
+pointer inside TConsole window area while keeping left mouse button
+pressed. <br>
+Selection can be discarded by mouse left button clicking anywhere
+inside TConsole window.<br>
+<br>
+<span class="relopts">Related options:</span>&nbsp; </div>
+<br>
+<hr> <br>
+<h4><a name="Clipboard"></a>Clipboard</h4>
+<div class="indent1"> <span></span>
+<table border="0" cellpadding="0" cellspacing="0">
+  <tbody>
+    <tr>
+      <td class="tdshort">Copy<br>
+      </td>
+      <td>Selected text block can be copied to the system clipboard
+using <a href="#Hot_Keys">Hot Keys</a> or <a href="#Context_Menu">Context
+Menu</a>.<br>
+Optionally, clipboard copy can be done by&nbsp; mouse right button
+click (ref. <a href="#QuickEdit_Mode">QuickEdit Mode)</a>.<br>
+      </td>
+    </tr>
+    <tr>
+      <td class="tdshort">Paste<br>
+      </td>
+      <td>Text can be pasted from the system clipboard at caret
+position using <a href="usage.html.html#Hot_Keys">Hot Keys</a> or <a
+ href="usage.html.html#Context_Menu">Context Menu</a>.<br>
+Optionally, clipboard paste can be done by&nbsp; mouse right button
+click (ref. <a href="usage.html.html#QuickEdit_Mode">QuickEdit Mode)</a>.
+      </td>
+    </tr>
+  </tbody>
+</table>
+<br>
+<span class="relopts">Related options:</span>&nbsp;<a
+ href="#QuickEdit_Mode">QuickEdit Mode</a></div>
+<br>
+<hr> <br>
+<h4><a name="Context_Menu"></a>Context Menu </h4>
+<div class="indent1"> Context menu is displayed by pressing mouse right
+button inside TConsole window or on 'TConsole' entry in 'Network &amp;
+Plugins'. If&nbsp;<a href="#Direct_Mode">Direct Mode</a> is active,
+context menu is displayed after a long press on right mous button. <br>
+<br>
+<h5>Menu commands<br>
+</h5>
+<table border="0" cellpadding="0" cellspacing="0">
+  <tbody>
+    <tr>
+      <td class="td1">Copy<br>
+      </td>
+      <td>execute <a href="#tcom_Copy">Copy</a><br>
+      </td>
+    </tr>
+    <tr>
+      <td class="td1">Paste<br>
+      </td>
+      <td>execute <a href="#tcom_Paste">Paste</a><br>
+      </td>
+    </tr>
+    <tr>
+      <td class="td1">Copy &amp; Paste<br>
+      </td>
+      <td>execute <a href="#tcom_CopyPaste">CopyPaste</a><br>
+      </td>
+    </tr>
+    <tr>
+      <td class="td1">Select All<br>
+      </td>
+      <td>execute <a href="#tcom_SelectAll">SelectAll</a><br>
+      </td>
+    </tr>
+    <tr>
+      <td class="td1">Send Ctrl+Break<br>
+      </td>
+      <td>execute <a href="#tcom_SendCtrlBreak">SendCtrlBreak</a><br>
+      </td>
+    </tr>
+    <tr>
+      <td class="td1">Detach Current Console<br>
+      </td>
+      <td>execute <a href="#tcom_Detach">Detach</a><br>
+      </td>
+    </tr>
+    <tr>
+      <td class="td1">Synchronize Directory<br>
+      </td>
+      <td>execute <a href="#tcom_SyncDir">SyncDir</a><br>
+      </td>
+    </tr>
+    <tr>
+      <td class="td1">Direct Mode (single line)<br>
+      </td>
+      <td>execute <a href="#tcom_DirectSingle">DirectSingle</a><br>
+      </td>
+    </tr>
+    <tr>
+      <td class="td1">Toggle Direct Mode<br>
+      </td>
+      <td>execute <a href="#tcom_DirectToggle">DirectToggle</a><br>
+      </td>
+    </tr>
+    <tr>
+      <td class="td1">Options<br>
+      </td>
+      <td>execute <a href="#tcom_Options">Options</a><br>
+      </td>
+    </tr>
+    <tr>
+      <td class="td1">About<br>
+      </td>
+      <td>execute <a href="#tcom_About">About</a><br>
+      </td>
+    </tr>
+    <tr>
+      <td class="td1">Go Back<br>
+      </td>
+      <td>execute <a href="#tcom_GoBack">GoBack</a><br>
+      </td>
+    </tr>
+  </tbody>
+</table>
+</div>
+<br>
+<hr> <br>
+<h4><a name="Hot_Keys"></a>Hot Keys </h4>
+<div class="indent1">TConsole handles hot keys in <a
+ href="#Direct_Mode">Direct Mode</a> only.&nbsp; In <a
+ href="#Command_Mode">Command Mode</a> all key input is redirected to
+Total Commander.<br>
+<br>
+<table border="0" cellpadding="0" cellspacing="0">
+  <tbody>
+    <tr>
+      <td class="td1">Ctrl+Insert<br>
+      </td>
+      <td>execute <a href="#tcom_Copy">Copy</a><br>
+      </td>
+    </tr>
+    <tr>
+      <td class="td1">Shift+Insert<br>
+      </td>
+      <td>execute <a href="#tcom_Paste">Paste</a><br>
+      </td>
+    </tr>
+    <tr>
+      <td class="td1">Ctrl+Shift+Insert<br>
+      </td>
+      <td>execute <a href="#tcom_CopyPaste">CopyPaste</a><br>
+      </td>
+    </tr>
+    <tr>
+      <td class="td1">Ctrl+Alt+A<br>
+      </td>
+      <td>execute <a href="#tcom_SelectAll">SelectAll</a><br>
+      </td>
+    </tr>
+    <tr>
+      <td class="td1">Ctrl+C/Break<br>
+      </td>
+      <td>execute <a href="#tcom_SendCtrlBreak">SendCtrlBreak</a><br>
+      </td>
+    </tr>
+    <tr>
+      <td class="td1">Ctrl+Alt+D</td>
+      <td>execute <a href="#tcom_Detach">Detach</a><br>
+      </td>
+    </tr>
+    <tr>
+      <td class="td1">Ctrl+Left/Right<br>
+      </td>
+      <td>execute <a href="#tcom_SyncDir">SyncDir</a><br>
+      </td>
+    </tr>
+    <tr>
+      <td class="td1">Ctrl+Alt+L<br>
+      </td>
+      <td>execute <a href="#tcom_DirectSingle">DirectSingle</a><br>
+      </td>
+    </tr>
+    <tr>
+      <td class="td1">Ctrl+Alt+M<br>
+      </td>
+      <td>execute <a href="#tcom_DirectToggle">DirectToggle</a><br>
+      </td>
+    </tr>
+    <tr>
+      <td class="td1">Ctrl+Alt+O<br>
+      </td>
+      <td>execute <a href="#tcom_Options">Options</a><br>
+      </td>
+    </tr>
+    <tr>
+      <td class="td1">Ctrl+Alt+Z<br>
+      </td>
+      <td>execute <a href="#tcom_About">About</a><br>
+      </td>
+    </tr>
+    <tr>
+      <td class="td1">Ctrl+Alt+B </td>
+      <td>execute <a href="#tcom_GoBack">GoBack</a><br>
+      </td>
+    </tr>
+  </tbody>
+</table>
+</div>
+<br>
+<hr> <br>
+<h4><a name="TConsole_Commands"></a>TConsole Commands</h4>
+<br>
+<div class="indent1"> <span></span>
+<table border="0" cellpadding="0" cellspacing="0">
+  <tbody>
+    <tr>
+      <td class="td1"><a name="tcom_Copy"></a>Copy<br>
+      </td>
+      <td>copy selected text block to the system clipboard<br>
+      </td>
+    </tr>
+    <tr>
+      <td class="td1"> <a name="tcom_Paste"></a>Paste</td>
+      <td>paste text from the system clipboard to the shell at caret
+position<br>
+      </td>
+    </tr>
+    <tr>
+      <td class="td1"> <a name="tcom_CopyPaste"></a>CopyPaste</td>
+      <td>copy selected text block and paste at caret position<br>
+      </td>
+    </tr>
+    <tr>
+      <td class="td1"><a name="tcom_SelectAll"></a>SelectAll<br>
+      </td>
+      <td>select all available text in TConsole window<br>
+      </td>
+    </tr>
+    <tr>
+      <td class="td1"><a name="tcom_SendCtrlBreak"></a>SendCtrlBreak<br>
+      </td>
+      <td>send control+break key sequence to the shell<br>
+      </td>
+    </tr>
+    <tr>
+      <td class="td1"><a name="tcom_Detach"></a>Detach<br>
+      </td>
+      <td>detach the active console to separate window and start a new
+one<br>
+      </td>
+    </tr>
+    <tr>
+      <td class="td1"><a name="tcom_SyncDir"></a>SyncDir<br>
+      </td>
+      <td>change the current shell directory to the Total Commander
+source panel one (using shell "cd" command)<br>
+      </td>
+    </tr>
+    <tr>
+      <td class="td1"><a name="tcom_DirectSingle"></a>DirectSingle<br>
+      </td>
+      <td>switch to&nbsp;<a href="#Direct_Mode">Direct Mode</a> and
+automatically switch back to&nbsp;<a href="#Command_Mode">Command Mode</a>
+after pressing "Enter"<br>
+      </td>
+    </tr>
+    <tr>
+      <td class="td1"><a name="tcom_DirectToggle"></a>DirectToggle<br>
+      </td>
+      <td>switch (toggle) between&nbsp;<a href="#Direct_Mode">Direct
+Mode</a> and <a href="#Command_Mode">Command Mode</a><br>
+      </td>
+    </tr>
+    <tr>
+      <td class="td1"><a name="tcom_Options"></a>Options<br>
+      </td>
+      <td>display&nbsp;<a href="#Options">Options</a> dialog<br>
+      </td>
+    </tr>
+    <tr>
+      <td class="td1"><a name="tcom_About"></a>About<br>
+      </td>
+      <td>display "About" dialog<br>
+      </td>
+    </tr>
+    <tr>
+      <td class="td1"><a name="tcom_GoBack"></a>GoBack<br>
+      </td>
+      <td>go back to "Network &amp; Plugins" folder. TConsole will be
+deactivated (ref. <a href="#TConsole_Deactivation">TConsole
+Deactivation</a>)<br>
+      </td>
+    </tr>
+  </tbody>
+</table>
+</div>
+<br>
+<hr> <br>
+<h3><a name="Options"></a>Options</h3>
+<div class="indent1">
+<h4><a name="General"></a>General</h4>
+<div class="indent1">
+<h5><a name="Shell"></a>Shell</h5>
+<div class="indent2"> Name of the shell (command interpreter)
+executable&nbsp;&nbsp; (default is "cmd.exe"). </div>
+<div class="sep"><br>
+</div>
+<h5><a name="Close_Console_on_Hide"></a>Close Console on Hide</h5>
+<div class="indent2">When TConsole is deactivated (ref.&nbsp;<a
+ href="#TConsole_Deactivation"> TConsole Deactivation</a>), TConsole
+window becomes hidden and the shell process is terminated or left
+running in background.<br>
+<table border="0" cellpadding="0" cellspacing="0">
+  <tbody>
+    <tr>
+      <td class="tdchk">&#9745;</td>
+      <td>The shell running in TConsole is terminated, and on the next
+TConsole activation, a new shell instance will be started. <br>
+      </td>
+    </tr>
+    <tr>
+      <td class="tdchk">&#9744;</td>
+      <td>The running shell is left running in background. Screen
+command history is retained.<br>
+      </td>
+    </tr>
+  </tbody>
+</table>
+</div>
+<div class="sep"><br>
+</div>
+<h5><a name="Change_Console_Width"></a>Change Console Width</h5>
+<div class="indent2"> Total Commander stores separate file panel width
+setting for Full/Brief and Comments modes. Switching the source file
+panel to'Comments' mode can be used as TConsole panel width preset.
+<table border="0" cellpadding="0" cellspacing="0">
+  <tbody>
+    <tr>
+      <td class="tdchk">&#9745;</td>
+      <td>Upon TConsole activation, the "Source" panel is switched to
+"Comments" view mode (cm_SrcComments).</td>
+    </tr>
+    <tr>
+      <td class="tdchk">&#9744;</td>
+      <td>Upon TConsole activation, no changes are made to the "Source"
+panel.</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+<div class="sep"><br>
+</div>
+<h5><a name="Brief_View_On_Hide"></a>Brief View On Hide</h5>
+<div class="indent2"> This option depends on&nbsp;<a
+ href="#Change_Console_Width">Change Console Width</a><br>
+<table border="0" cellpadding="0" cellspacing="0">
+  <tbody>
+    <tr>
+      <td class="tdchk">&#9745;</td>
+      <td>upon TConsole deactivation, the "Source" file panel will be
+switched to "Brief" mode (cm_SrcShort)</td>
+    </tr>
+    <tr>
+      <td class="tdchk">&#9744;</td>
+      <td>upon TConsole deactivation, the "Source" file panel will be
+switched to "Full" mode (cm_SrcLong)</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+<div class="sep"><br>
+</div>
+<h5><a name="Start_in_Direct_Mode"></a>Start in Direct Mode</h5>
+<div class="indent2"> Default key input mode.
+<table border="0" cellpadding="0" cellspacing="0">
+  <tbody>
+    <tr>
+      <td class="tdchk">&#9745;</td>
+      <td>TConsole starts in <a href="#Direct_Mode">Direct Mode</a><br>
+      </td>
+    </tr>
+    <tr>
+      <td class="tdchk">&#9744;</td>
+      <td>TConsole starts in <a href="#Command_Mode">Command Mode</a><br>
+      </td>
+    </tr>
+  </tbody>
+</table>
+</div>
+<div class="sep"><br>
+<h5><a name="QuickEdit_Mode"></a>QuickEdit Mode</h5>
+<div class="indent2"> A handy copy &amp; paste mode using mouse.
+QuickEdit is activated by mouse right button click. If there is active
+selection (ref. <a href="#Text_selection">Text Selection</a>) in
+TConsole window, the selected text will be copied to the system
+clipboard, otherwise text from the system clipboard will be pasted at
+caret position.
+<table border="0" cellpadding="0" cellspacing="0">
+  <tbody>
+    <tr>
+      <td class="tdchk">&#9745;</td>
+      <td>QuickEdit mode is active</td>
+    </tr>
+    <tr>
+      <td class="tdchk">&#9744;</td>
+      <td>QuickEdit mode is inactive</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+<div class="sep"><br>
+</div>
+</div>
+</div>
+<div class="sep"><br>
+</div>
+<b><a name="Keyboard"></a>Keyboard</b>
+<div class="indent1">
+<h5><a name="Handle_CtrlShiftInsert"></a>Handle Ctrl/Shift+Insert</h5>
+<div class="indent2"> <span></span>
+<table border="0" cellpadding="0" cellspacing="0">
+  <tbody>
+    <tr>
+      <td class="tdchk">&#9745;</td>
+      <td>handle Ctrl+Insert and Shift+Insert (ref. <a href="#Hot_Keys">Hot
+Keys</a>)</td>
+    </tr>
+    <tr>
+      <td class="tdchk">&#9744;</td>
+      <td>ignore Ctrl+Insert and Shift+Insert</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+<div class="sep"><br>
+</div>
+<h5><a name="Handle_CtrlCBreak"></a>Handle Ctrl+C/Break</h5>
+<div class="indent2"> Active in&nbsp;<a href="#Direct_Mode">Direct Mode</a>
+only
+<table border="0" cellpadding="0" cellspacing="0">
+  <tbody>
+    <tr>
+      <td class="tdchk">&#9745;</td>
+      <td>pass Ctrl+C or Ctrl+Break to the shell running in TConsole</td>
+    </tr>
+    <tr>
+      <td class="tdchk">&#9744;</td>
+      <td>ignore Ctrl+C and Ctrl+Break</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+<div class="sep"><br>
+</div>
+<h5><a name="Scroll_RightShiftArrows"></a>Scroll RightShift+Arrows</h5>
+<div class="indent2"> Active in&nbsp;<a href="#Direct_Mode">Direct Mode</a>
+only
+<table border="0" cellpadding="0" cellspacing="0">
+  <tbody>
+    <tr>
+      <td class="tdchk">&#9745;</td>
+      <td>scroll TConsole window by pressing right shift and arrow key</td>
+    </tr>
+    <tr>
+      <td class="tdchk">&#9744;</td>
+      <td>ignore RightShift+Arrows</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+<div class="sep"><br>
+</div>
+<h5><a name="Forward_Keys_to_TC"></a>Forward Keys to TC</h5>
+<div class="indent2"> Forward the listed hot keys to the main Total
+Commander window. <br>
+Hot key format: Modifier+Key (e.g. "Alt+F1")<br>
+Hot keys are separated by comma (e.g "Alt+F1,Ctrl+F").<br>
+Possible key modifiers: Ctrl, Shift, Alt.<br>
+Key modifier may have L (left) or R (right) prefix (e.g. LCtrl means
+Left Ctrl).<br>
+Keys are letters, digits, F1-F24, NUM_0-NUM_9 and the following words:<br>
+<div class="indent2">
+BACK, TAB, ENTER, ESCAPE, SPACE,<br>
+PAGEUP,&nbsp;&nbsp;&nbsp; PAGEDOWN,&nbsp;&nbsp;&nbsp; <br>
+HOME, END,&nbsp;&nbsp;&nbsp; <br>
+LEFT, RIGHT, UP, DOWN,&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; <br>
+INSERT, DELETE,<br>
+NUM_ADD, NUM_SUBTRACT, NUM_DECIMAL, NUM_MULTIPLY, NUM_DIVIDE,<br>
+PLUS, COMMA.<br>
+</div>
+</div>
+<div class="sep"><br>
+</div>
+</div>
+<a name="Mouse"></a><b>Mouse</b>
+<div class="indent1">
+<h5><a name="Wheel_scroll_lines"></a>Wheel scroll (lines)</h5>
+<div class="indent2"> Speed of TConsole window scroll by mouse wheel
+(number lines at a time). </div>
+<div class="sep"><br>
+</div>
+</div>
+<a name="Font"></a><b>Font</b>
+<div class="indent1">
+<h5><a name="TConsole_dialog_and_menu_font"></a>TConsole dialog and
+menu font<br>
+</h5>
+<div class="indent2"> Font name is in the following format: Font
+Face,width,height (e.g. Terminal 8,12)
+<table border="0" cellpadding="0" cellspacing="0">
+  <tbody>
+    <tr>
+      <td class="tdchk">[...]<br>
+      </td>
+      <td>Opens a standard Windows font browser dialog (only monospace
+fonts are allowed)</td>
+    </tr>
+    <tr>
+      <td class="tdchk">[X]<br>
+      </td>
+      <td>Reset to default TConsole font (Terminal 8,12)</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+<div class="sep"><br>
+</div>
+</div>
+<a name="Language"></a><b>Language</b>
+<div class="indent1"><span>TConsole user interface (<a href="#Options">Options</a>dialog,&nbsp;<a
+ href="#Context_Menu">Context Menu</a> etc) displaylanguage.</span> </div>
+</div>
+<br>
+<hr> <br>
+<h3><a name="Version_History"></a>Version History</h3>
+<br>
+<div class="indent1">
+<div class="indent2">
+<h4>Version 2.7</h4>
+<ul>
+  <li>Fixed Direct Mode bug caused key input blocking after execution
+of "exit" command.</li>
+  <li>Fixed selection reset upon console close (caused selection block
+stay on the screen after console re-open)<br>
+  </li>
+</ul>
+<h4>Version 2.6</h4>
+<ul>
+  <li>Fixed Total Commander 32 bit support</li>
+  <li>Added localization of context menu and options dialog</li>
+  <li>Improved coexistence with TWinkey plug-in</li>
+  <li>Fixed minor bugs</li>
+</ul>
+<h4>Version 2.2</h4>
+<ul>
+  <li>Added 64 bit support</li>
+  <li>Added TC 7.5/8.x support</li>
+</ul>
+<h4>Version 2.1</h4>
+<ul>
+  <li>Fixed bug with dynamic console layout</li>
+  <li>Added scrolling console window by mouse wheel</li>
+  <li>Added mouse wheel sensitivity setting</li>
+  <li>Fixed bug with "Shift" key state</li>
+  <li>Added QuickEdit Mode. When some text is selected right mouse
+button copies selected text to the clipboard and resets selection.
+Otherwise text from clipboard is pasted. In QuickEdit mode Options
+dialog is displayed on "long" right click (more then 0.5 sec)</li>
+  <li>Added "Quick Copy&amp;Paste" by right mouse button while left
+button still pressed</li>
+  <li>Added "Change Console Width" option to change automatically
+console width to Comments view width</li>
+  <li>Added "Brief View on Hide" option to set automatically TC panel
+to Full view or Brief view width when console window is closed</li>
+</ul>
+<h4>Version 2.0</h4>
+<ul>
+  <li>"Secure input mode" renamed to "Direct mode" as opposite to
+"Command input mode"</li>
+  <li>Added hot keys for all menu items</li>
+  <li>Added scrolling in Direct mode with RightShift+Arrows keys</li>
+  <li>Added sound scheme support</li>
+  <li>Removed Autodetach option</li>
+  <li>Changed Option dialog behaviour. Now it doesn't prevent console
+input/output</li>
+  <li>Detached console placed to foreground</li>
+  <li>Added user-definable hot keys to be forwarded to TC in "Standard
+mode"</li>
+</ul>
+<h4>Version 1.9</h4>
+<ul>
+  <li>
+    <h4>Version for TC 6.0</h4>
+  </li>
+</ul>
+<h4>Version 1.8</h4>
+<ul>
+  <li>Fixed bug related to totalcmd.ini file location</li>
+</ul>
+<h4>Version 1.7</h4>
+<ul>
+  <li>Fixed memory leaking bug</li>
+  <li>Fixed bug with focus losing after Alt+Left/Right</li>
+  <li>Fixed bug with selection in Far East languages</li>
+</ul>
+<h4>Version 1.6</h4>
+<ul>
+  <li>Added DBCS support</li>
+  <li>Added Copy&amp;Paste as single action (Ctrl+Shift+Insert)</li>
+  <li>Fixed bug with plug-in rename</li>
+  <li>Fixed bug with focus losing after Alt+Left/Right</li>
+</ul>
+<h4>Version 1.5</h4>
+<ul>
+  <li>Added Windows NT support</li>
+  <li>Added partially Select &amp; Copy to clipboard</li>
+  <li>Added Paste from clipboard (simulate keyboard input)</li>
+  <li>Added support Ctrl+C, Ctrl+Break (send Break signal to the
+console)</li>
+  <li>Added hotkeys Ctrl/Shift+Insert (Copy/Paste)</li>
+  <li>Added hotkey to return back to TC panel (Alt+Ctl+4, optionally
+Alt+Left/Right)</li>
+  <li>Fixed bug with 'Numpad Enter' key</li>
+  <li>Fixed bug with saving of settings</li>
+  <li>Fixed bug with vertical panels location</li>
+</ul>
+<h4>Version 1.4</h4>
+<ul>
+  <li>Added option "Close on Hide"</li>
+  <li>Added hot keys to switch on/off secure mode (Alt+Ctrl+1/2)</li>
+  <li>Added option "Start in secure mode"</li>
+  <li>Added blinking cursor to console window when focus belong to
+console</li>
+  <li>Improved keyboard handling</li>
+  <li>Fixed bug with big screen buffer size</li>
+  <li>Fixed bug with translation extended ASCII symbols</li>
+  <li>Fixed bug with auto-detach feature</li>
+</ul>
+</div>
+</div>
+<h3><a name="Author"></a>Author</h3>
+<br>
+<div class="indent1">
+<span>MGP Software Ltd. &amp; maximdw</span>
+<br>
+<span>Email: tconsole@gmx.com</span>
+</div>
+</body>
+</html>

@@ -1,0 +1,452 @@
+﻿
+[Info]
+Language=Česky (Czech)
+Translator=Marek Souček
+Site=www.xbaseview.com
+Support=www.xbaseview.com/support
+Purchase=www.xbaseview.com/purchase.htm
+Download=www.xbaseview.com/download.htm
+Mail=support@xbaseview.com
+HelpFile=English
+ReleaseDate=10. března 2007
+;
+;- Resources for Components
+;
+[TfrmVsbleFlds]
+Caption=Pole (Sloupce) viditelné
+Caption.OKBtn=&OK
+Caption.CancelBtn=&Zrušit
+Caption.GroupBoxAll=Všechna pole
+Caption.RadioShow=&1 Ukázat
+Caption.RadioHide=&2 Skrýt
+;
+[TfrmFilterDBF]
+Caption=Index Filtr
+Caption.OKBtn=&OK
+Caption.CancelBtn=&Zrušit
+Caption.lblFieldName=Hodnoty %s:
+Caption.lblMin=Minimum:
+Caption.lblMax=Maximum:
+;
+[TfrmFilterDlg]
+Caption=SQL Filtr
+Caption.btnOK=&1 OK
+Caption.btnCancel=&2 Zrušit
+Caption.btnAdvanced=&3 Další...
+DisplayLabel.mFiltDispLabel=Jméno pole
+DisplayLabel.mFiltCriteria=Podmínka
+DisplayLabel.mFiltValue=Hodnota
+DisplayLabel.mFiltAndOr=And/Or
+;
+[TfrmFilterDlg2]
+Caption=Upravit SQL Filtr
+Caption.btnOK=&1 OK
+Caption.btnCancel=&2 Zrušit
+Caption.btnLoad=&3 Otevřít
+Caption.btnSave=&4 Uložit
+Title.dlgSave=Uložit filtr
+;
+[TfrmFindDBF]
+Caption=Hledat
+Caption.OKBtn=&OK
+Caption.CancelBtn=&Zrušit
+;
+[TxBaseInd]
+Caption=Vybrat soubory indexů
+Caption.OKBtn=&OK
+Caption.CancelBtn=&Zrušit
+Caption.SrcLabel=Dostupné indexy
+Caption.DstLabel=Vybrané indexy
+;
+;- Resources of Project
+;
+[TfmLangPdox]
+Caption=Jazykové ovladače Paradoxu
+Caption.OKBtn=&Změnit
+Caption.CancelBtn=Z&avřít
+;
+[TfmCodePage]
+Caption=Kódová stránka FoxPro/dBase DBF
+Caption.OKBtn=&Změnit
+Caption.CancelBtn=Z&avřít
+Caption.AnalyzeButton=&Analyzovat
+;
+[TfmXBaseView]
+Caption.mnuRefresh=Obnovit (Ctrl+R)
+Hint.sbSqlLoad=|Nahrát SQL-operátor (Shift+Ctrl+L)
+Hint.sbSqlSelect=|Spustit Výběrový-operátor (Shift+Ctrl+R)
+Hint.sbSqlUpdate=|Spustit SQL-operátor (Shift+Ctrl+U)
+Hint.sbSqlSave=|Uložit SQL-operátor (Shift+Ctrl+S)
+Hint.mnuOpen=Otevřít adresář souboru
+Hint.mnuHistory=Otevřít Hot List adresářů
+Hint.mnuClose=Zavřít dataset nebo databázi
+Hint.mnuIndex=Dialogové okno indexů
+Hint.mnuStruct=Dialogové okno struktury
+Hint.mnuSqlPanel=Panel SQL operací
+Hint.mnuMultiSelect=Vícenásobný výběr řádků mřížky
+Hint.mnuHideTree=Strom adresářů a souborů
+Hint.mnuHideCaption=Navigační tlačítka
+Hint.mnuHideHint=Nápovědy a tipy k nástrojům
+Hint.mnuExclusive=Exclusivní mód
+Hint.mnuReadOnly=Mód bez editace
+Hint.mnuReindex=Znovu vytvořit indexy
+Hint.mnuPack=Odstaranit označené záznamy
+Hint.mnuZap=Odstranit všechny záznamy
+Hint.mnuRename=Aktuální soubor jeho indexy a poznámky
+Hint.mnuAutoCP=Kód jazyka řetězce
+Hint.mnuConvert=Překlad řetězce
+Hint.mnuFileTypes=Registrace typů souborů
+Caption.LanguageMenu=&Jazyk
+Caption.mnuConvert=Převést
+Caption.mnuAbout=O aplikaci...
+Caption.mnuImport=&Import
+Caption.mnuOpen2=Otevřít (Enter)
+Caption.mnuClose2=Zavřít (Ctrl+W)
+Caption.mnuExpand=Rozbalit (Plus)
+Caption.mnuCollapse=Sbalit (Minus)
+Caption.mnuUpLevel=O úroveň výš (Ctrl+BkSp)
+Caption.mnuSqlClear=Vymazat SQL (Ctrl+Y)
+Caption.mnuSqlTmplSel=SQL Select (S+Ctrl+J)
+Caption.mnuSqlTmplIns=SQL Insert (I+Ctrl+J)
+Caption.mnuSqlTmplUpd=SQL Update (U+Ctrl+J)
+Caption.mnuSqlTmplDel=SQL Delete (D+Ctrl+J)
+Caption.mnuCopy=Kopírovat (Ctrl+C)
+Caption.mnuPaste=Vložit (Ctrl+V)
+Title.OpenImport=Importovat z
+Caption.FileMenu=&Soubor
+Caption.ViewMenu=&Zobrazit
+Caption.ToolsMenu=&Nástroje
+Caption.ExportMenu=&Export
+Caption.HelpMenu=&Nápověda
+Caption.mnuExit=Konec
+Caption.mnuFileTypes=Typy souborů
+Caption.mnuOpen=Otevřít...
+Caption.mnuHistory=Historie...
+Caption.mnuClose=Zavřít
+Caption.mnuIndex=Indexy...
+Caption.mnuStruct=Struktura...
+Caption.mnuSaveStatus=Uložit
+Caption.mnuSqlPanel=SQL Panel
+Caption.mnuMultiSelect=Vícenásobný výběr
+Caption.mnuHideTree=Stromově zobrazení
+Caption.mnuHideCaption=Skrýt popisky tlačítek
+Caption.mnuHideHint=Skrýt nápovědy nástrojů
+Caption.mnuExclusive=Výlučně
+Caption.mnuReadOnly=Jen pro čtení
+Caption.mnuParameters=Volby...
+Caption.mnuDriversInfo=DB ovladače
+Caption.mnuHelpIndex=Index...
+Caption.mnuHelpKeys=Klávesnice
+Caption.mnuErrorInfo=Informace o chybách
+Caption.mnuReindex=Přeindexovat
+Caption.mnuPack=Sbalit DB
+Caption.mnuZap=Zap DB
+Caption.mnuRename=Přejmenovat
+Caption.mnuAutoCP=Jazyk
+Title.SaveSQL=Uložit SQL
+;
+[TfmIndex]
+Caption=Indexy %s
+Caption.sbAddTag=&1 Přidat index
+Caption.sbDelTag=&2 Smazat index
+Caption.sbDelCDX=&3 Smazat soubor
+Caption.lbInfo=Čekat...
+Caption.btnClose=&4 Zavřít
+Caption.lblFiledsList=Pole:
+Caption.lblIndexes=Indexy:
+Caption.lblIndexName=Jméno indexu (Tag nebo soubor):
+Caption.lblIndexType=Typ indexu:
+Caption.lblIndexExpr=Indexovací výraz:
+Caption.lblCollate=Shromáždit jméno:
+Caption.chkUniq=Unikátní index
+Caption.chkDesc=Sestupný index
+;
+[TfmStruct]
+Caption=Struktura  %s
+Caption.sbModifyDBF=&1 Změnit DBF
+Caption.sbCreateDBF=&2 Vytvořit DBF
+Caption.lbInfo=Čekat...
+Caption.lbDbfType=&DBF Typu:
+Caption.sbPrintStruct=&3 Tisk struktury
+Caption.btnClose=&4 Zavřít
+DisplayLabel.fldName=Pole
+DisplayLabel.fldType=Typ
+DisplayLabel.fldLen=Velikost
+DisplayLabel.fldDec=Desetinná místa
+;
+[TfmStructPdox]
+Caption=Struktura %s
+Caption.sbModifyDBF=&1 Uložit jako
+Caption.sbCreateDBF=&2 Vytvořit novou
+Caption.lbInfo=Čekat...
+Caption.sbPrintStruct=&3 Tisk struktury
+Caption.btnClose=&4 Zavřít
+DisplayLabel.fldName=Pole
+DisplayLabel.fldType=Typ
+DisplayLabel.fldLen=Velikost
+DisplayLabel.fldPrimKey=Primární klíč
+DisplayLabel.fldSecKey=Index
+DisplayLabel.fldReq=Požadovaný
+;
+[TfmLogin]
+Caption=Chyba spojení s %s
+Caption.Label1=&Uživatelské jméno:
+Caption.Label2=&Heslo:
+Caption.Button1=&OK
+Caption.Button2=&Zrušit
+;
+[TfmParams]
+Caption=Options
+Caption.OKBtn=OK
+Caption.CancelBtn=Zrušit
+Caption.Label1=Uživatelské jméno:
+Caption.Label2=Heslo:
+Caption.Label4=Znaková sada:
+Caption.Label5=SQL dialekt:
+Caption.chkRecordCount=Počet záznamů pro SQL Databázi
+Caption.lblGridColSize=Velikost sloupce pro pole big character
+Caption.lblDbfExt2=Druhá přípona pro DBF soubory
+Caption.lblDelimiter=Oddělovač polí v CSV souboru
+Caption.chkNoHeader=XLS/CSV/TAB/HTM soubory nemají hlavičku (jména polí)
+Caption.chkNoMaximize=Nemaximalizovat po spuštění
+Caption.chkFlatInterface=Ploché uživatelské rozhraní
+Caption.chkSingleClick=Otevírat tabulky jedním kliknutím
+Caption.StartupGroup=Startovací volby
+Caption.OthersGroup=Ostatní volby
+Caption.SerDirGroup=Adresář služeb
+Caption.rgSelectDirectory=Vybrat adresář
+Caption.rgMessageBox=Zprávy o exportu
+Caption.ViewTab=Zobrazit
+Caption.GeneralTab=Běžné
+Caption.DriversTab=Ovladače
+xvSelDirItem0=Dialogovým oknem Borland
+xvSelDirItem1=Dialogovým oknem Windows
+xvMesBoxItem0=Na stavovém řádku
+xvMesBoxItem1=Informačním oknem
+Caption.LabelHost=Hostname nebo IP:
+Caption.chkIbLoginPrompt=Výzva pro přihlášení
+Caption.lblCurrencyFormat=Formát
+;
+[TfmHistory]
+Caption=Vybrat adresář - [Enter] nebo dvojklik
+Caption.Column1=Adresář
+Caption.Column2=Počítadlo
+;
+[TfmWizard]
+Caption=Vytvořit spojení
+Caption.btnBack=&1 Zpět
+Caption.btnCancel=&3 Zrušit
+Caption.btnConTest=Testovat spojení
+Caption.btnDbSearch=Vyhledat databázi
+Caption.btnFinish=&2 Dokončit
+Caption.btnNext1=&2 Další
+Caption.btnNext2=&2 Další
+Caption.btnNext3=&2 Další
+Caption.btnNext4=&2 Další
+Caption.btnNext5=&2 Další
+Caption.btnNext6=&2 Další
+Caption.chkSavePassw=Uložit heslo
+Caption.lblConName=Jméno souboru spojení:
+Caption.lblDbName=Jméno databáze:
+Caption.lblHelp1=Vybrat DBMS
+Caption.lblHelp2=Specifikovat parametry DBMS
+Caption.lblHelp3=Specifikovat parametry DBMS
+Caption.lblHelp4=Specifikovat parametry DBMS
+Caption.lblHelp5=Vybrat databázi
+Caption.lblHelp6=Specifikovat jméno databáze
+Caption.lblHelp7=Specifikovat jméno souboru připojení
+Caption.lblMsg1=Spojení úspěšné
+Caption.lblMsg2=Spojení selhalo
+Caption.lblMsg3=Nelze vybrat seznam databází
+Caption.lblHintInterbase=Also use an alias from ALIASES.CONF as Server_Name:Database_Name
+;
+[TfmOracle]
+Caption.Label1=&Oracle SID:
+Caption.Label2=&Login:
+Caption.Label3=&Password:
+Caption.Label4=&UDL File Name:
+Caption.btnOK=&OK
+Caption.btnCancel=&Cancel
+;
+;- Public Resources
+;
+[TxPublicSection]
+;- Navigator
+xBtnCapFirstRecord=Nahoru
+xBtnCapPriorRecord=Výš
+xBtnCapNextRecord=Níž
+xBtnCapLastRecord=Dolů
+xBtnCapInsertRecord=Nový
+xBtnCapEditRecord=Upravit
+xBtnCapDeleteRecord=Smazat
+xBtnCapPostEdit=Uložit
+xBtnCapCancelEdit=Zrušit
+xBtnCapFindRecord=Najít
+xBtnCapFilterRecord=Filtr
+xBtnCapPrintRecord=Tisk
+xBtnCapRefreshRecord=Obnovit
+xBtnHintFirstRecord=První záznam
+xBtnHintPriorRecord=Předchozí záznam
+xBtnHintNextRecord=Další záznam
+xBtnHintLastRecord=Poslední záznam
+xBtnHintInsertRecord=Vložit záznam
+xBtnHintEditRecord=Upravit záznam
+xBtnHintDeleteRecord=Smazat záznam
+xBtnHintPostEdit=Uložit záznam
+xBtnHintCancelEdit=Zrušit úpravy
+xBtnHintFindRecord=Najít
+xBtnHintFilterRecord=Filtrovat nebo skrýt sloupce
+xBtnHintPrintRecord=Tisk dat
+xBtnHintRefreshRecord=Obnovit data
+xBtnDeleteRecordQuestion=Smazat záznam?
+xBtnDeleteAllRecordQuestion=Smazat všechny vybrané záznamy?
+;- Dialogs
+xbDlgCaption1=Načíst filtr
+xbDlgText01=Index %s má výraz:#13%s#13Očekavaný výraz:#13%s#13Nahradit tento index?
+xbDlgText02=Vytvoř %s Sdružený index pro pole %s?
+xbDlgText031=Index pro pole %s
+xbDlgText032=Jméno a přípona souboru indexu:
+xbDlgText033=%s Jméno souboru indexu:
+xbDlgText051=Byl stisknut ESC, zrušit úlohu?
+xbDlgText070=Zbývá řádků : neznámo (Esc pro zrušení)
+xbDlgText071=Zbývá řádků : 0
+xbDlgText072=Zbývá řádků: %d (Esc pro zrušení)
+xbDlgText080=Primární index nenalezen.#13Vytvořit z pole %s?
+xbDlgText081=Vytvořit index pro pole %s?
+;- Miscellaneous & Export
+xSOKButton=OK
+xSCancelButton=Zrušit
+xSSelectDirCap=Vybrat adresář
+xSDirNameCap=Jméno adresáře:
+xSDrivesCap=Jednotky:
+xSDirsCap=Adresáře:
+xSFilesCap=Soubory: (*.*)
+xSNetworkCap=Síť...
+xMsgDlgWarning=Varování
+xMsgDlgError=Chyba
+xMsgDlgInformation=Informace
+xMsgDlgConfirm=Potvrdit
+xMsgDlgYes=Ano
+xMsgDlgNo=Ne
+xMsgDlgOK=OK
+xMsgDlgCancel=Zrušit
+xMsgDlgAbort=Storno
+xMsgDlgRetry=Znovu
+xMsgDlgIgnore=Ignorovat
+xMsgDlgAll=Vše
+xMsgDlgNoToAll=Ne všem
+xMsgDlgYesToAll=Ano všem
+xMsgDlgHelp=Pomoc
+xMsgCaption=Informace
+xCnfrmCaption=Potvrdit
+xDlgOverwrite=Přepsat existující soubor:#13%s?
+xExportDlgCap=Exportovat do %s
+xExportErrNoAsgn=Sada dat není určena
+xExportErrNoActv=Sada dat není aktivní
+xExportErrNoName=Chybí jméno souboru pro zápis
+xExportErrUnknwn=Chyba při exportu:#13%s
+;
+;- Strings of Project
+;
+xvDlgRegExtens=Použít %s k otevření jeho všech přípon, kromě XLS, XML, HTML?
+xvDlgErrPlugin=Toto může být Fatal Error:#13%s#13Chcete zavřít program?
+xvDlgDBSave=Uložit změny do databáze?
+xvDlgSqlSave=Uložit SQL text?
+xvDlgReindex=Reindexovat soubor?
+xvDlgPack=Pakovat soubor?
+xvDlgZap=Smazat všechny záznamy?
+xvDlgDeleteIdx=Smazat soubor(y) indexů?
+xvDlgRenCaption=Přejmenovat
+xvDlgRenPrompt=Zadejte nové jméno:
+xvDlgUdlTxt=DataLink jméno souboru:
+xvInfoText1=Délka:
+xvInfoText2=Pole:
+xvInfoText3=Kódová stránka:
+xvInfoText4=Soubor:
+xvInfoText5=Index:
+xvInfoText6=[Filtr]
+xvInfoText7=Jazyk:
+xvInfoText8=[SQL-Filtr]
+xvMsgOK=Dokončeno.
+xvMsgReady=Připraven
+xvMsgWait=Čekání...
+xvMsgDriversInfo=Databázové ovladače z registry a disku:
+xvMsgUserCancel=Operace byla stonrována.
+xvExportMsg3=Nemůže nahradit sám sebe.
+xvMsgRestart=Program musí být restartován.
+xvMsgDbfEmptyCP=Kódová stránka DBF je prázdná (nula)!
+xvMsgDbfConvert=Přeložit znaky DBF z %s do %s?
+xvBadDataSet=Databáze je prázdná nebo není otevřená.
+xvErrExcelBook=Smazat včechny řádky Excelu kromě tabulky.
+xvErrRename=Chyba přejmenovávání souboru %s na:#13%s
+xvErrBdeCon=BDE spojení selhalo.
+xvErrSchema=Chyba čtení schématu databáze:
+xvErrUnknDbf=Chyba otevírání, možná neznámý formát DBF.
+xvErrorSelect=Chyba SQL Select:
+xvErrMemory=Není dostatek paměti.
+xvErrCreate=Neočekávaná chyba při vytváření okna:
+xvErrOpenDBF=cHYBA OTVÍRÁNÍ DATABÁZE.
+xvErrDestroyWindow=Chyba při rušení okna aplikace:
+xvErrCreateDBF=Chyba vytváření DBF:
+xvErrCreateIdx=Chyba vytváření indexu:
+xvErrCreateSelfDBF=Chybb. Nemůže vytvořit sám sebe.
+xvErrCreateCopyDBF=Chyba při vytváření kopie DBF.
+xvErrModifyDBF=Chyba při modifikaci DBF:
+xvErrIdxExisting=Index již existuje.
+xvErrIdxExpExisting=Hodnota indexu již existuje.
+xvErrIdxInvalidExp=Neplatná hodnota indexu.
+xvErrIdxNotExisting=Jméno indexu nenalezeno.
+xvErrIdxDeleteError=Chyba mazání indexu:
+xvErrFlieExisting=Soubor %s již existuje.
+xvErrFormatParam=Parametr "Format" ze SCHEMA.INI nekoresponduje s příponou.
+xvMenuCreateCaption=Vytvořit %s
+xvMenuSimpleXmlCaption=Simple
+xvFormNewTableCaption=Nová struktura tabulky pro %s
+xvLblTableNameCaption=&1 Jméno tabulky:
+xvBtnCreateSQLCaption=&2 Vytvořit SQL
+xvLblDecimalSepCaption=Desetinný oddělovač pro soubory CSV/TAB/HTM:
+xvLblServerName=Jméno servru:
+xvListTabCaption=Seznam
+xvDownloadTabCaption=Download
+xvChkDisableCaption=Dočasně znemožnit
+xvErrSrvrNotStared=Databázový server "%s" není spuštěn. Pokračovat?
+xvDlgFileName=Jméno souboru:
+xvErrorSQL=SQL chyba:
+xvMenuHowTo=Jak na...
+xvMenuTipsFor=Tipy pro...
+xvSendMail=Poslat e-mail tvůrci?
+xvErrNotDelete=Soubor %s nelze smazat.
+xvErrNotFound=Soubor %s nenalezen.
+xvErrImport=Chyba importu:
+xvErrExport=Chyba exportu:
+xvErrSQLCreate1=Chyba vytváření souboru MSSQL-Serveru:
+xvErrSQLCreate2=MSSQL Server Databáze "%s" již existuje.
+xvErrUDLCreate=Chyba vytváření souboru Data Link:
+xvErrDSNCreate1=ODBC: Chyba při zavádění ODBCCP32.DLL.
+xvErrDSNCreate2=ODBC: Chyba při získávání adresy pro SQLCreateDataSource
+xvErrDSNCreate3=ODBC: Chyba při získávání adresy pro SQLInstallerError
+xvErrMyIdxCreate=Chyba vytváření indexu MySQL:
+xvErrBdeSession=Současná BDE session byla ztracena.
+xvDlgUnRegExtens=Všechna rozšíření souboru %s byla odregistrována.
+xvMenuRegister=Registrovat...
+xvMenuHide=Skrýt
+xvMenuSort=Třídit
+xvMenuFind=Najít
+xvMenuFilter=Filtr
+xvMenuODBC=ODBC DSN...
+xvMenuODBCHint=Zdroje dat ODBC
+xvMenuBDE=BDE Aliasy
+xvMenuBDEHint=Borland Database Aliasy
+xvMenuQuickOpen=Rychlé otevření
+xvMenuQuickOpenHint=Omezení výsledků dotazu Select
+xvMenuSize=Velikost
+xvMenuSizeHint=Přizpůsobit velikosti
+xvChangeFont=&Změnit písmo
+xvErrFileCreate=Nelze vytvořit soubor %s.
+xvErrDbfConvert=Nelze převést DBF z OEM (MS-DOS) do ANSI (Windows).
+xvErrFormat=Neznámý formát dat.
+xvErrNetworkPath=Neplatné UNC jméno: %s
+xvMenuNet=Spojení
+xvMenuWizard=Průvodce
+xvIncorrectFile=Soubor má nesprávný formát
+xvOnlyOneCopy=Pouze jedna kopie v době

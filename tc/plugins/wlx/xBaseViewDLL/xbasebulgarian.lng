@@ -1,0 +1,452 @@
+﻿
+[Info]
+Language=Български (Bulgarian)
+Translator=Georgi Krushkov
+Site=www.xbaseview.com
+Support=www.xbaseview.com/support
+Purchase=www.xbaseview.com/purchase.htm
+Download=www.xbaseview.com/download.htm
+Mail=support@xbaseview.com
+HelpFile=Russian
+ReleaseDate=September, 2007
+;
+;- Ресурси за компонентите
+;
+[TfrmVsbleFlds]
+Caption=Видими полета (колонки)
+Caption.OKBtn=OK
+Caption.CancelBtn=Отказ
+Caption.GroupBoxAll=Всички полета
+Caption.RadioShow=&1 Покажи
+Caption.RadioHide=&2 Скрий
+;
+[TfrmFilterDBF]
+Caption=Филтър на индекса
+Caption.OKBtn=OK
+Caption.CancelBtn=Отказ
+Caption.lblFieldName=Стойности на полето %s:
+Caption.lblMin=Минимално:
+Caption.lblMax=Максимално:
+;
+[TfrmFilterDlg]
+Caption=SQL филтър
+Caption.btnOK=&1 OK
+Caption.btnCancel=&2 Отказ
+Caption.btnAdvanced=&3 Следващ...
+DisplayLabel.mFiltDispLabel=Име на полето
+DisplayLabel.mFiltCriteria=Условие
+DisplayLabel.mFiltValue=Стойност
+DisplayLabel.mFiltAndOr=И/Или
+;
+[TfrmFilterDlg2]
+Caption=Редактирай SQL филтъра
+Caption.btnOK=&1 OK
+Caption.btnCancel=&2 Отказ
+Caption.btnLoad=&3 Зареди
+Caption.btnSave=&4 Запази
+Title.dlgSave=Запази филтъра
+;
+[TfrmFindDBF]
+Caption=Търсене
+Caption.OKBtn=OK
+Caption.CancelBtn=Отказ
+;
+[TxBaseInd]
+Caption=Избери индексни файлове
+Caption.OKBtn=ОК
+Caption.CancelBtn=Отказ
+Caption.SrcLabel=Достъпни индекси:
+Caption.DstLabel=Избрани индекси:
+;
+;- Pесурси на проекта
+;
+[TfmLangPdox]
+Caption=Езикови драйвери за Paradox
+Caption.OKBtn=Промени
+Caption.CancelBtn=Затвори
+;
+[TfmCodePage]
+Caption=Кодови страници за FoxPro/dBase DBF
+Caption.OKBtn=&Промени
+Caption.CancelBtn=Затвори
+Caption.AnalyzeButton=Анализирай
+;
+[TfmXBaseView]
+Caption.mnuRefresh=Обнови (Ctrl+R)
+Hint.sbSqlLoad=|Зареди SQL-оператор (Shift+Ctrl+L)
+Hint.sbSqlSelect=|Изпълни SQL Select (Shift+Ctrl+R)
+Hint.sbSqlUpdate=|Выполнить SQL-оператор (Shift+Ctrl+U)
+Hint.sbSqlSave=|Запази SQL-оператор (Shift+Ctrl+S)
+Hint.mnuOpen=Отвори папка или файл
+Hint.mnuHistory=Избор на папка от списъка
+Hint.mnuClose=Затвори набора данни или базата
+Hint.mnuIndex=Диалог за индексите
+Hint.mnuStruct=Диалог за структурата
+Hint.mnuSqlPanel=Табло за SQL операциите
+Hint.mnuMultiSelect=Избор на няколко реда от таблицата
+Hint.mnuHideTree=Структура на папките и файловете
+Hint.mnuHideCaption=Бутони за навигация
+Hint.mnuHideHint=Изплуващи подсказки
+Hint.mnuExclusive=Монополен режим
+Hint.mnuReadOnly=Без режим Редактиране
+Hint.mnuReindex=Преиндексиране
+Hint.mnuPack=Премахване на маркираните записи
+Hint.mnuZap= Премахване на всички записи
+Hint.mnuRename=Текущият Файл, индекси и мемо
+Hint.mnuAutoCP=CodePage за символните низове
+Hint.mnuConvert=Превод на символния низ
+Hint.mnuFileTypes=Регистрация на типа на файла
+Caption.LanguageMenu=Език
+Caption.mnuConvert=Преобразуване на DBF
+Caption.mnuAbout=За програмата
+Caption.mnuImport=Импорт
+Caption.mnuOpen2=Отвори (Enter)
+Caption.mnuClose2=Затвори (Ctrl+W)
+Caption.mnuExpand=Разшири (Plus)
+Caption.mnuCollapse=Свий (Minus)
+Caption.mnuUpLevel=Ниво нагоре (Ctrl+BkSp)
+Caption.mnuSqlClear=Почисти буфера (Ctrl+Y)
+Caption.mnuSqlTmplSel=SQL Select (S+Ctrl+J)
+Caption.mnuSqlTmplIns=SQL Insert (I+Ctrl+J)
+Caption.mnuSqlTmplUpd=SQL Update (U+Ctrl+J)
+Caption.mnuSqlTmplDel=SQL Delete (D+Ctrl+J)
+Caption.mnuCopy=Копирай (Ctrl+C)
+Caption.mnuPaste=Вмъкни (Ctrl+V)
+Title.OpenImport=Импорт от
+Caption.FileMenu=Файл
+Caption.ViewMenu=Прегледай
+Caption.ToolsMenu=Сервизни програми
+Caption.ExportMenu=Експорт
+Caption.HelpMenu=Помощ
+Caption.mnuExit=Изход
+Caption.mnuFileTypes=Тип на файла
+Caption.mnuOpen=Отвори...
+Caption.mnuHistory=История...
+Caption.mnuClose=Затвори
+Caption.mnuIndex=Индекси...
+Caption.mnuStruct=Структура...
+Caption.mnuSaveStatus=Запази
+Caption.mnuSqlPanel=SQL панел
+Caption.mnuMultiSelect=Избор на няколко
+Caption.mnuHideTree=Дърво на файловете
+Caption.mnuHideCaption=Без надписи
+Caption.mnuHideHint=Без подсказки
+Caption.mnuExclusive=Монополно
+Caption.mnuReadOnly=Само за четене
+Caption.mnuParameters=Опции...
+Caption.mnuDriversInfo=Драйвери на БД
+Caption.mnuHelpIndex=Съдържание
+Caption.mnuHelpKeys=Клавиатура
+Caption.mnuErrorInfo=Описание на грешката
+Caption.mnuReindex=Реиндексиране
+Caption.mnuPack=Компресиране на базата
+Caption.mnuZap=Изтриване на данните
+Caption.mnuRename=Преименоване
+Caption.mnuAutoCP=Код на страницата за езика
+Title.SaveSQL=Запомни SQL
+;
+[TfmIndex]
+Caption=Индекси на %s
+Caption.sbAddTag=&1 Добави индекс
+Caption.sbDelTag=&2 Изтрий индекс
+Caption.sbDelCDX=&3 Изтрий файл
+Caption.lbInfo=Почакай, моля...
+Caption.btnClose=&4 Затвори
+Caption.lblFiledsList=Полета:
+Caption.lblIndexes=Индекси:
+Caption.lblIndexName=Име на индекса (Tag или File):
+Caption.lblIndexType=Тип на индекса:
+Caption.lblIndexExpr=Израз за индекса:
+Caption.lblCollate=Вид на сортировки:
+Caption.chkUniq=Уникален индекс
+Caption.chkDesc=Намаляващ индекс
+;
+[TfmStruct]
+Caption=Структура на %s
+Caption.sbModifyDBF=&1 Промени DBF
+Caption.sbCreateDBF=&2 Създай DBF
+Caption.lbInfo=Почакай, моля...
+Caption.lbDbfType=&Тип DBF:
+Caption.sbPrintStruct=&3 Печат структ.
+Caption.btnClose=&4 Затвори
+DisplayLabel.fldName=Поле
+DisplayLabel.fldType=Тип
+DisplayLabel.fldLen=Размер
+DisplayLabel.fldDec=Точност
+;
+[TfmStructPdox]
+Caption=Структура на %s
+Caption.sbModifyDBF=&1 Запази като
+Caption.sbCreateDBF=&2 Създай нова
+Caption.lbInfo=Почакай, моля...
+Caption.sbPrintStruct=&3 Печат на структ.
+Caption.btnClose=&4 Затвори
+DisplayLabel.fldName=Поле
+DisplayLabel.fldType=Тип
+DisplayLabel.fldLen=Размер
+DisplayLabel.fldPrimKey=Главен ключ
+DisplayLabel.fldSecKey=Индекс
+DisplayLabel.fldReq=Задължително
+;
+[TfmLogin]
+Caption=Грешка при свързване с %s
+Caption.Label1=Логин:
+Caption.Label2=Парола:
+Caption.Button1=OK
+Caption.Button2=Отказ
+;
+[TfmParams]
+Caption=Опции
+Caption.OKBtn=OK
+Caption.CancelBtn=Отказ
+Caption.Label1=Име на потребителя:
+Caption.Label2=Парола на потребителя:
+Caption.Label4= Символи и кодировка:
+Caption.Label5=Диалект на SQL:
+Caption.chkRecordCount=Брояч на записите в SQL базата
+Caption.lblGridColSize=Ширина на колоната за дълги символни полета
+Caption.lblDbfExt2=Второ разширение за DBF файлове
+Caption.lblDelimiter=Разделител между полетата в CSV Text файл
+Caption.chkNoHeader=XLS/CSV/TAB/HTM файл без имена на колоноте
+Caption.chkNoMaximize=Не започвай на цял екран
+Caption.chkFlatInterface=Плоски бутони
+Caption.chkSingleClick=Отваряй таблице с едно цъкане
+Caption.StartupGroup=Опции при пускане
+Caption.OthersGroup=Други опции
+Caption.SerDirGroup=Служебна директория
+Caption.rgSelectDirectory=Избери директория
+Caption.rgMessageBox=Сообщение за експорт
+Caption.ViewTab=Покажи
+Caption.GeneralTab=Общи
+Caption.DriversTab=Драйвери
+xvSelDirItem0=През Borland диалог
+xvSelDirItem1=През Windows диалог
+xvMesBoxItem0=На реда за Статус
+xvMesBoxItem1=В отделен диалог
+Caption.LabelHost=Име на Хост или IP:
+Caption.chkIbLoginPrompt=Поискай парола
+Caption.lblCurrencyFormat=Формат
+;
+[TfmHistory]
+Caption=Избор на директория - [Enter] или двойно цъкане
+Caption.Column1=Директория
+Caption.Column2=Брояч
+;
+[TfmWizard]
+Caption=Създай ново свързване
+Caption.btnBack=&1 Назад
+Caption.btnCancel=&3 Отказ
+Caption.btnConTest=Проверка на свързването
+Caption.btnDbSearch=Търсене на базата данни
+Caption.btnFinish=&2 Готово
+Caption.btnNext1=&2 По-нататък
+Caption.btnNext2=&2 По-нататък
+Caption.btnNext3=&2 По-нататък
+Caption.btnNext4=&2 По-нататък
+Caption.btnNext5=&2 По-нататък
+Caption.btnNext6=&2 По-нататък
+Caption.chkSavePassw=Запомни паролата
+Caption.lblConName=Име на файла за свързване:
+Caption.lblDbName=Име на базата данни:
+Caption.lblHelp1=Изберете СУБД
+Caption.lblHelp2=Въведете параметри на СУБД
+Caption.lblHelp3= Въведете параметри на СУБД
+Caption.lblHelp4= Въведете параметри на СУБД
+Caption.lblHelp5=Изберете база данни
+Caption.lblHelp6=Въведете име на базата данни
+Caption.lblHelp7=Въведете име на файла за свързване
+Caption.lblMsg1=Успешно свързаване
+Caption.lblMsg2=Неуспешно свързване
+Caption.lblMsg3=Неуспешно избиране на списъка с бази данни
+Caption.lblHintInterbase=Также пользуйтесь алиасом из ALIASES.CONF в виде Server_Name:Database_Name
+;
+[TfmOracle]
+Caption.Label1=&Oracle SID:
+Caption.Label2=&Login:
+Caption.Label3=&Password:
+Caption.Label4=&UDL File Name:
+Caption.btnOK=&OK
+Caption.btnCancel=&Cancel
+;
+;- Общи ресурси
+;
+[TxPublicSection]
+;- Навигатор
+xBtnCapFirstRecord=Отгоре
+xBtnCapPriorRecord=Нагоре
+xBtnCapNextRecord=Надолу
+xBtnCapLastRecord=Долу
+xBtnCapInsertRecord=Ново
+xBtnCapEditRecord=Редактиране
+xBtnCapDeleteRecord=Изтриване
+xBtnCapPostEdit=Запис
+xBtnCapCancelEdit=Отказ
+xBtnCapFindRecord=Търсене
+xBtnCapFilterRecord=Филтър
+xBtnCapPrintRecord=Печат
+xBtnCapRefreshRecord=Четене
+xBtnHintFirstRecord=Перви запис
+xBtnHintPriorRecord=Предишен запис
+xBtnHintNextRecord=Следващ запис
+xBtnHintLastRecord=Последен запис
+xBtnHintInsertRecord=Вмъкни запис
+xBtnHintEditRecord=Редактиране на запис
+xBtnHintDeleteRecord=Изтриване на запис
+xBtnHintPostEdit=Запазване на промените
+xBtnHintCancelEdit=Отказ от промените
+xBtnHintFindRecord=Търсене
+xBtnHintFilterRecord=Филтър или Скрий колонката
+xBtnHintPrintRecord=Печат на данни
+xBtnHintRefreshRecord=Прочети отново данните
+xBtnDeleteRecordQuestion=Триене на записа?
+xBtnDeleteAllRecordQuestion=Изтриване на всички избрани записи?
+;- Диалози
+xbDlgCaption1=Зареждане на филтър
+xbDlgText01=Индексът %s съдържа израза:#13%s#13Очакваният израз е:#13%s#13Да заменя ли индекса?
+xbDlgText02=Да създам ли съставен индекс %s за полето %s?
+xbDlgText031=Индекс за полето %s
+xbDlgText032=Име на индексен файл с разширение:
+xbDlgText033=Индексен файл %s:
+xbDlgText051=Натиснат клавиш Esc. Край на обработката?
+xbDlgText070=Останаха редове : неизвестно (Esc - стоп)
+xbDlgText071=Останаха редове: 0
+xbDlgText072=Останаха редове : %d (Esc - стоп)
+xbDlgText080=Липсва Главен индекс.#13Да го създам ли от полето %s?
+xbDlgText081=Да създам ли индекс за полето %s?
+;- Други, Експорт
+xSOKButton=OK
+xSCancelButton=Отказ
+xSSelectDirCap=Избор на директория
+xSDirNameCap=Име на директорията:
+xSDrivesCap=Дискове:
+xSDirsCap=Директории:
+xSFilesCap=Файлове: (*.*)
+xSNetworkCap=Мрежа...
+xMsgDlgWarning=Предупреждение
+xMsgDlgError=Гешка
+xMsgDlgInformation=Информация
+xMsgDlgConfirm=Подтвърждение
+xMsgDlgYes=Да
+xMsgDlgNo=Не
+xMsgDlgOK=OK
+xMsgDlgCancel=Отказ
+xMsgDlgAbort=Прекрати
+xMsgDlgRetry=Повторит
+xMsgDlgIgnore=Игнорирай
+xMsgDlgAll=Всички
+xMsgDlgNoToAll=Не за всички
+xMsgDlgYesToAll=Да за всички
+xMsgDlgHelp=Помощ
+xMsgCaption=Информация
+xCnfrmCaption=Подтвърждение
+xDlgOverwrite=Запис върху существуващия файл:#13%s?
+xExportDlgCap=Експорт в %s
+xExportErrNoAsgn=Наборът данни не е присвоен
+xExportErrNoActv=Наборът данни не е активен
+xExportErrNoName=Не е указано име на изходния файл
+xExportErrUnknwn=Грешка при експорт:#13%s
+;
+;- Строки проекта
+;
+xvDlgRegExtens=Използване на %s за отваряне на всички файлове, освен XLS,XML,HTML?
+xvDlgErrPlugin=Може би грешката е фатална:#13%s#13Да прекратя ли работата на програмата?
+xvDlgDBSave=Да запазя ли промените в базата?
+xvDlgSqlSave=Да запазя ли SQL текста?
+xvDlgReindex=Да преиндексирам ли базата?
+xvDlgPack=Да направя ли Pack на базата?
+xvDlgZap=Да изтрия всички записи в базата?
+xvDlgDeleteIdx=Да изтрия индексните файлове на базите?
+xvDlgRenCaption=Преименуване
+xvDlgRenPrompt=Въведи имя на файла:
+xvDlgUdlTxt=Име на DataLink файла:
+xvInfoText1=Дължина:
+xvInfoText2=Полета:
+xvInfoText3=Кодова страница на езика:
+xvInfoText4=Порядък:
+xvInfoText5=Индекс:
+xvInfoText6=[Филтър]
+xvInfoText7=Език:
+xvInfoText8=[SQL-Филтър]
+xvMsgOK=Завърши.
+xvMsgReady=Готово
+xvMsgWait=Изчакване...
+xvMsgDriversInfo=Драйвери за базите данни от Регистъра и Диска:
+xvMsgUserCancel=Операцията е охвърлена.
+xvExportMsg3=Не може замяна на самия себе си.
+xvMsgRestart=Рестартирайте програмата.
+xvMsgDbfEmptyCP=Кодът за език в DBF файла е 0 или липсва!
+xvMsgDbfConvert=Прекодиране на символите в DBF файла от %s в %s?
+xvBadDataSet=Базата данни е празна или не е отворена.
+xvErrExcelBook=Да изтрия всички редове, освен самата Excel таблица.
+xvErrRename=Грешка при преименуване на файла %s:#13%s
+xvErrBdeCon=Неуспешно свързване с BDE.
+xvErrSchema=Грешка при четене на схемата на  базата данни:
+xvErrUnknDbf=Грешка при отваряне, може би неизвестен формат DBF.
+xvErrorSelect=Грешка при SQL Select:
+xvErrMemory=Недостига оперативнa памet.
+xvErrCreate=Неочаквана грешка при създаване на прозорец:
+xvErrOpenDBF=ГРЕШКА ПРИ ОТВАРЯНВТО НА БАЗАТА ДАННИ.
+xvErrDestroyWindow=Грешка при затваряне прозореца на програмата:
+xvErrCreateDBF=Грешка при създаване на DBF:
+xvErrCreateIdx=Грешка при създаване на индекса:
+xvErrCreateSelfDBF=Грешка. Опит за създаване на сам себе си.
+xvErrCreateCopyDBF=Грешка при създаване на  копие на DBF.
+xvErrModifyDBF=Грешка при модифициране на DBF:
+xvErrIdxExisting=Такъв индекс вече има в базата.
+xvErrIdxExpExisting=Такъв индексен израз вече има в базата.
+xvErrIdxInvalidExp=Невалиден израз в индекса.
+xvErrIdxNotExisting=В базата няма такъв индекс.
+xvErrIdxDeleteError=Грешка при изтриване на  индекса:
+xvErrFlieExisting=Файлът %s вече существа.
+xvErrFormatParam=Параметърът "Format" от SCHEMA.INI не съответства на разширението.
+xvMenuCreateCaption=Създаване на %s
+xvMenuSimpleXmlCaption=Simple
+xvFormNewTableCaption=Структура на новата таблица за %s
+xvLblTableNameCaption=&1 Име на таблицата:
+xvBtnCreateSQLCaption=&2 Създай SQL
+xvLblDecimalSepCaption=Десетичен разделител за CSV/TAB/HTM файловете:
+xvLblServerName=Име на сървъра:
+xvListTabCaption=Списък
+xvDownloadTabCaption=Зареждане
+xvChkDisableCaption=Временно недостъпен
+xvErrSrvrNotStared=Сервъра на БД "%s" не е стартиран. Да продължа ли?
+xvDlgFileName=Име на файла:
+xvErrorSQL=Грешка при изпълнение на SQL:
+xvMenuHowTo=Как да...
+xvMenuTipsFor=Съвет за..
+xvSendMail=Да напиша ли писмо до разработчика?
+xvErrNotDelete=Не мога да изтрия файл %s.
+xvErrNotFound=Файлът %s не е намерен.
+xvErrImport=Грешка при импорт:
+xvErrExport=Грешка при експорт:
+xvErrSQLCreate1=Грешка на MSSQL Server при създаване на файл:
+xvErrSQLCreate2=Базата "%s" на MSSQL Server вече съществува.
+xvErrUDLCreate=Грешка при създаване на Data Link файла:
+xvErrDSNCreate1=ODBC: Грешка при зареждане на ODBCCP32.DLL.
+xvErrDSNCreate2=ODBC: Грешка при получаване на адреса на SQLCreateDataSource
+xvErrDSNCreate3=ODBC: Грешка при получаване на адреса на SQLInstallerError
+xvErrMyIdxCreate=Грешка при създаване на индекс на MySQL:
+xvErrBdeSession=Текущата сесия на BDE е загубена.
+xvDlgUnRegExtens=Всички файлови разширения от %s са нерегистрирани.
+xvMenuRegister=Регистрация...
+xvMenuHide=Скрий
+xvMenuSort=Сортировка
+xvMenuFind=Търсене
+xvMenuFilter=Филтър
+xvMenuODBC=ODBC DSN...
+xvMenuODBCHint= ODBC източници на данни
+xvMenuBDE=BDE псевдоними
+xvMenuBDEHint=Псевдоними на Borland Database
+xvMenuQuickOpen=Бърз OPEN
+xvMenuQuickOpenHint=Ограничaване на резултатит от завката
+xvMenuSize=Ширина
+xvMenuSizeHint=Настрока на размера
+xvChangeFont=&Смяна на шрифта
+xvErrFileCreate=Невъзможно е създаването на файла %s.
+xvErrDbfConvert=Невъзможно е преобразуването на DBF от OEM (MS-DOS) в ANSI (Windows).
+xvErrFormat=Неизвестен формат на данните.
+xvErrNetworkPath=Невалидно UNC име: %s
+xvMenuNet=Свързване
+xvMenuWizard=Помощник
+xvIncorrectFile=Грешен формат на файла
+xvOnlyOneCopy=Само по един екземпляр

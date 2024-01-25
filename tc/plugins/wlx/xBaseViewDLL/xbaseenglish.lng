@@ -1,0 +1,452 @@
+﻿
+[Info]
+Language=Default (English)
+Translator=Evgeniy Savich
+Site=www.xbaseview.com
+Support=www.xbaseview.com/support
+Purchase=www.xbaseview.com/purchase.htm
+Download=www.xbaseview.com/download.htm
+Mail=support@xbaseview.com
+HelpFile=English
+ReleaseDate=April 19, 2007
+;
+;- Resources for Components
+;
+[TfrmVsbleFlds]
+Caption=Fields (Columns) Visible
+Caption.OKBtn=&OK
+Caption.CancelBtn=&Cancel
+Caption.GroupBoxAll=All Fields
+Caption.RadioShow=&1 Show
+Caption.RadioHide=&2 Hide
+;
+[TfrmFilterDBF]
+Caption=Index Filter
+Caption.OKBtn=&OK
+Caption.CancelBtn=&Cancel
+Caption.lblFieldName=Values of %s:
+Caption.lblMin=Minimum:
+Caption.lblMax=Maximum:
+;
+[TfrmFilterDlg]
+Caption=SQL Filter
+Caption.btnOK=&1 OK
+Caption.btnCancel=&2 Cancel
+Caption.btnAdvanced=&3 Next...
+DisplayLabel.mFiltDispLabel=Field Name
+DisplayLabel.mFiltCriteria=Condition
+DisplayLabel.mFiltValue=Value
+DisplayLabel.mFiltAndOr=And/Or
+;
+[TfrmFilterDlg2]
+Caption=Edit SQL Filter
+Caption.btnOK=&1 OK
+Caption.btnCancel=&2 Cancel
+Caption.btnLoad=&3 Load
+Caption.btnSave=&4 Save
+Title.dlgSave=Save filter
+;
+[TfrmFindDBF]
+Caption=Search
+Caption.OKBtn=&OK
+Caption.CancelBtn=&Cancel
+;
+[TxBaseInd]
+Caption=Select Index Files
+Caption.OKBtn=&OK
+Caption.CancelBtn=&Cancel
+Caption.SrcLabel=Available Indexes
+Caption.DstLabel=Selected Indexes
+;
+;- Resources of Project
+;
+[TfmLangPdox]
+Caption=Language drivers of Paradox
+Caption.OKBtn=&Change
+Caption.CancelBtn=C&lose
+;
+[TfmCodePage]
+Caption=Code pages of FoxPro/dBase DBF
+Caption.OKBtn=&Change
+Caption.CancelBtn=C&lose
+Caption.AnalyzeButton=&Analyze
+;
+[TfmXBaseView]
+Caption.mnuRefresh=Refresh (Ctrl+R)
+Hint.sbSqlLoad=|Load SQL statement (Shift+Ctrl+L)
+Hint.sbSqlSelect=|Run SQL Select statement (Shift+Ctrl+R)
+Hint.sbSqlUpdate=|Run SQL statement (Shift+Ctrl+U)
+Hint.sbSqlSave=|Save SQL statement (Shift+Ctrl+S)
+Hint.mnuOpen=Open Directory or File
+Hint.mnuHistory=Open Hot List of directories
+Hint.mnuClose=Close Dataset or Database
+Hint.mnuIndex=Dialog box for indexes
+Hint.mnuStruct=Dialog box for structure
+Hint.mnuSqlPanel=Panel for SQL operations
+Hint.mnuMultiSelect=Multi Select rows of grid
+Hint.mnuHideTree=Tree of directories and files
+Hint.mnuHideCaption=Navigate Buttons
+Hint.mnuHideHint=Tool hints and tips
+Hint.mnuExclusive=Exclusive mode
+Hint.mnuReadOnly=Without edit mode
+Hint.mnuReindex=Recreate indexes
+Hint.mnuPack=Remove marked records
+Hint.mnuZap=Remove all records
+Hint.mnuRename=Current file, its indexes and memos
+Hint.mnuAutoCP=Language's code of strings
+Hint.mnuConvert=Translation of strings
+Hint.mnuFileTypes=Registration of file types
+Caption.LanguageMenu=&Language
+Caption.mnuConvert=Convert
+Caption.mnuAbout=About...
+Caption.mnuImport=&Import
+Caption.mnuOpen2=Open (Enter)
+Caption.mnuClose2=Close (Ctrl+W)
+Caption.mnuExpand=Expand (Plus)
+Caption.mnuCollapse=Collapse (Minus)
+Caption.mnuUpLevel=UpLevel (Ctrl+BkSp)
+Caption.mnuSqlClear=Clear SQL (Ctrl+Y)
+Caption.mnuSqlTmplSel=SQL Select (S+Ctrl+J)
+Caption.mnuSqlTmplIns=SQL Insert (I+Ctrl+J)
+Caption.mnuSqlTmplUpd=SQL Update (U+Ctrl+J)
+Caption.mnuSqlTmplDel=SQL Delete (D+Ctrl+J)
+Caption.mnuCopy=Copy (Ctrl+C)
+Caption.mnuPaste=Paste (Ctrl+V)
+Title.OpenImport=Import from
+Caption.FileMenu=&File
+Caption.ViewMenu=&View
+Caption.ToolsMenu=&Tools
+Caption.ExportMenu=&Export
+Caption.HelpMenu=&Help
+Caption.mnuExit=Exit
+Caption.mnuFileTypes=File types
+Caption.mnuOpen=Open...
+Caption.mnuHistory=History...
+Caption.mnuClose=Close
+Caption.mnuIndex=Indexes
+Caption.mnuStruct=Structure
+Caption.mnuSaveStatus=Save
+Caption.mnuSqlPanel=SQL Panel
+Caption.mnuMultiSelect=Multi Select
+Caption.mnuHideTree=Tree Panel
+Caption.mnuHideCaption=Hide Captions
+Caption.mnuHideHint=Hide Tool Tips
+Caption.mnuExclusive=Exclusive
+Caption.mnuReadOnly=Read Only
+Caption.mnuParameters=Options...
+Caption.mnuDriversInfo=DB Drivers
+Caption.mnuHelpIndex=Index...
+Caption.mnuHelpKeys=Keyboard
+Caption.mnuErrorInfo=Error data
+Caption.mnuReindex=Reindex
+Caption.mnuPack=Pack DB
+Caption.mnuZap=Zap DB
+Caption.mnuRename=Rename
+Caption.mnuAutoCP=Page Code
+Title.SaveSQL=Save SQL
+;
+[TfmIndex]
+Caption=Indexes of %s
+Caption.sbAddTag=&1 Add Index
+Caption.sbDelTag=&2 Delete Index
+Caption.sbDelCDX=&3 Delete File
+Caption.lbInfo=Wait...
+Caption.btnClose=&4 Close
+Caption.lblFiledsList=Fields:
+Caption.lblIndexes=Indexes:
+Caption.lblIndexName=Index Name (Tag or File):
+Caption.lblIndexType=Index Type:
+Caption.lblIndexExpr=Index Expression:
+Caption.lblCollate=Collate Name:
+Caption.chkUniq=Unique Index
+Caption.chkDesc=Descend Index
+;
+[TfmStruct]
+Caption=Structure of %s
+Caption.sbModifyDBF=&1 Modify DBF
+Caption.sbCreateDBF=&2 Create DBF
+Caption.lbInfo=Wait...
+Caption.lbDbfType=&DBF Type:
+Caption.sbPrintStruct=&3 Print Structure
+Caption.btnClose=&4 Close
+DisplayLabel.fldName=Field
+DisplayLabel.fldType=Type
+DisplayLabel.fldLen=Size
+DisplayLabel.fldDec=Decimal
+;
+[TfmStructPdox]
+Caption=Structure of %s
+Caption.sbModifyDBF=&1 Save As
+Caption.sbCreateDBF=&2 Create New
+Caption.lbInfo=Wait...
+Caption.sbPrintStruct=&3 Print Structure
+Caption.btnClose=&4 Close
+DisplayLabel.fldName=Field
+DisplayLabel.fldType=Type
+DisplayLabel.fldLen=Size
+DisplayLabel.fldPrimKey=Primary Key
+DisplayLabel.fldSecKey=Index
+DisplayLabel.fldReq=Required
+;
+[TfmLogin]
+Caption=Connection error to %s
+Caption.Label1=&Login:
+Caption.Label2=&Password:
+Caption.Button1=&OK
+Caption.Button2=&Cancel
+;
+[TfmParams]
+Caption=Options
+Caption.OKBtn=OK
+Caption.CancelBtn=Cancel
+Caption.Label1=Login:
+Caption.Label2=Password:
+Caption.Label4=Character Set:
+Caption.Label5=SQL Dialect:
+Caption.chkRecordCount=Record count for SQL Database
+Caption.lblGridColSize=Size of column for big character fields
+Caption.lblDbfExt2=Second extension for DBF files
+Caption.lblDelimiter=Field delimiter for CSV file
+Caption.chkNoHeader=XLS/CSV/TAB/HTM file has not header (field names)
+Caption.chkNoMaximize=No maximize at startup
+Caption.chkFlatInterface=Flat user interface
+Caption.chkSingleClick=Open table by single click
+Caption.StartupGroup=Startup Options
+Caption.OthersGroup=Other Options
+Caption.SerDirGroup=Service Directory
+Caption.rgSelectDirectory=Select directory
+Caption.rgMessageBox=Export Message
+Caption.ViewTab=View
+Caption.GeneralTab=Common
+Caption.DriversTab=Drivers
+xvSelDirItem0=Via Borland dialog box
+xvSelDirItem1=Via Windows dialog box
+xvMesBoxItem0=On status bar
+xvMesBoxItem1=On message box
+Caption.LabelHost=Hostname or IP:
+Caption.chkIbLoginPrompt=Login Prompt
+Caption.lblCurrencyFormat=Numeric Format
+;
+[TfmHistory]
+Caption=Select directory - [Enter] or double click
+Caption.Column1=Directory
+Caption.Column2=Counter
+;
+[TfmWizard]
+Caption=Create New Connection
+Caption.btnBack=&1 Back
+Caption.btnCancel=&3 Cancel
+Caption.btnConTest=Test Connection
+Caption.btnDbSearch=Find Database
+Caption.btnFinish=&2 Finish
+Caption.btnNext1=&2 Next
+Caption.btnNext2=&2 Next
+Caption.btnNext3=&2 Next
+Caption.btnNext4=&2 Next
+Caption.btnNext5=&2 Next
+Caption.btnNext6=&2 Next
+Caption.chkSavePassw=Save Password
+Caption.lblConName=Connection File Name:
+Caption.lblDbName=Database Name:
+Caption.lblHelp1=Select the DBMS
+Caption.lblHelp2=Specify the DBMS parameters
+Caption.lblHelp3=Specify the DBMS parameters
+Caption.lblHelp4=Specify the DBMS parameters
+Caption.lblHelp5=Select the database
+Caption.lblHelp6=Specify the database name
+Caption.lblHelp7=Specify the connection file name
+Caption.lblMsg1=Connection successful
+Caption.lblMsg2=Connection failed
+Caption.lblMsg3=Cannot select a list of databases
+Caption.lblHintInterbase=Also use an alias from ALIASES.CONF as Server_Name:Database_Name
+;
+[TfmOracle]
+Caption.Label1=&Oracle SID:
+Caption.Label2=&Login:
+Caption.Label3=&Password:
+Caption.Label4=&UDL File Name:
+Caption.btnOK=&OK
+Caption.btnCancel=&Cancel
+;
+;- Public Resources
+;
+[TxPublicSection]
+;- Navigator
+xBtnCapFirstRecord=Top
+xBtnCapPriorRecord=Up
+xBtnCapNextRecord=Down
+xBtnCapLastRecord=Bottom
+xBtnCapInsertRecord=New
+xBtnCapEditRecord=Edit
+xBtnCapDeleteRecord=Delete
+xBtnCapPostEdit=Save
+xBtnCapCancelEdit=Cancel
+xBtnCapFindRecord=Find
+xBtnCapFilterRecord=Filter
+xBtnCapPrintRecord=Print
+xBtnCapRefreshRecord=Refresh
+xBtnHintFirstRecord=First record
+xBtnHintPriorRecord=Prior record
+xBtnHintNextRecord=Next record
+xBtnHintLastRecord=Last record
+xBtnHintInsertRecord=Insert / Copy
+xBtnHintEditRecord=Edit record
+xBtnHintDeleteRecord=Delete record
+xBtnHintPostEdit=Save record
+xBtnHintCancelEdit=Cancel edit
+xBtnHintFindRecord=Find / Step
+xBtnHintFilterRecord=Filter / Hide
+xBtnHintPrintRecord=Print data
+xBtnHintRefreshRecord=Refresh data
+xBtnDeleteRecordQuestion=Delete record?
+xBtnDeleteAllRecordQuestion=Delete all selected records?
+;- Dialogs
+xbDlgCaption1=Load filter
+xbDlgText01=Index %s has expression:#13%s#13Expected expression:#13%s#13Replace this index?
+xbDlgText02=Create %s Compound Index for field %s?
+xbDlgText031=Index for field %s
+xbDlgText032=Index file name with extension:
+xbDlgText033=%s Index File name:
+xbDlgText051=Esc key was pressed. Cancel work?
+xbDlgText070=Rows remained : unknown (Esc to abort)
+xbDlgText071=Rows remained : 0
+xbDlgText072=Rows remained: %d (Esc to abort)
+xbDlgText080=Primary Index is missing.#13Create it with field %s?
+xbDlgText081=Create index for field %s?
+;- Miscellaneous & Export
+xSOKButton=OK
+xSCancelButton=Cancel
+xSSelectDirCap=Select Directory
+xSDirNameCap=Directory Name:
+xSDrivesCap=Drives:
+xSDirsCap=Directories:
+xSFilesCap=Files: (*.*)
+xSNetworkCap=Network...
+xMsgDlgWarning=Warning
+xMsgDlgError=Error
+xMsgDlgInformation=Information
+xMsgDlgConfirm=Confirm
+xMsgDlgYes=Yes
+xMsgDlgNo=No
+xMsgDlgOK=OK
+xMsgDlgCancel=Cancel
+xMsgDlgAbort=Abort
+xMsgDlgRetry=Retry
+xMsgDlgIgnore=Ignore
+xMsgDlgAll=All
+xMsgDlgNoToAll=No to All
+xMsgDlgYesToAll=Yes to All
+xMsgDlgHelp=Help
+xMsgCaption=Information
+xCnfrmCaption=Confirm
+xDlgOverwrite=Overwrite the existing file:#13%s?
+xExportDlgCap=Export to %s
+xExportErrNoAsgn=Data Set is not assigned
+xExportErrNoActv=Data Set is not active
+xExportErrNoName=File Name to write to is missing
+xExportErrUnknwn=Error exporting:#13%s
+;
+;- Strings of Project
+;
+xvDlgRegExtens=Use the %s to open its all file extensions, except XLS,XML,HTML?
+xvDlgErrPlugin=Maybe this is a fatal error:#13%s#13Do you want to close program?
+xvDlgDBSave=Save changes to database?
+xvDlgSqlSave=Save SQL text?
+xvDlgReindex=Reindex the file?
+xvDlgPack=Pack the file?
+xvDlgZap=Delete all records?
+xvDlgDeleteIdx=Delete index file(s)?
+xvDlgRenCaption=Rename
+xvDlgRenPrompt=Enter new name:
+xvDlgUdlTxt=DataLink File Name:
+xvInfoText1=Length:
+xvInfoText2=Fields:
+xvInfoText3=Code Page:
+xvInfoText4=Collate:
+xvInfoText5=Index:
+xvInfoText6=[Filter]
+xvInfoText7=Language:
+xvInfoText8=[SQL-Filter]
+xvMsgOK=Completed.
+xvMsgReady=Ready
+xvMsgWait=Wait...
+xvMsgDriversInfo=Database drivers from Registry and Disk:
+xvMsgUserCancel=Operation has been aborted.
+xvExportMsg3=Can not replace itself.
+xvMsgRestart=Program must be restarted.
+xvMsgDbfEmptyCP=Code page of DBF is empty (zero)!
+xvMsgDbfConvert=Translate characters of DBF from %s to %s?
+xvBadDataSet=Database is empty or not open.
+xvErrExcelBook=Delete all rows of Excel, except table.
+xvErrRename=Error renaming of file %s to:#13%s
+xvErrBdeCon=BDE connection failed.
+xvErrSchema=Error reading of schema of database:
+xvErrUnknDbf=Error of opening, maybe unknown format of DBF.
+xvErrorSelect=Error of SQL Select:
+xvErrMemory=Not enough memory.
+xvErrCreate=Unexpected error of window creation:
+xvErrOpenDBF=ERROR OF DATABASE OPENING.
+xvErrDestroyWindow=Error of destroying window of program:
+xvErrCreateDBF=Error of DBF creation:
+xvErrCreateIdx=Error of index creation:
+xvErrCreateSelfDBF=Error. Could not create itself.
+xvErrCreateCopyDBF=Error of creation the copy of DBF.
+xvErrModifyDBF=Error of DBF modifying:
+xvErrIdxExisting=Index already exists.
+xvErrIdxExpExisting=Expression of index already exists.
+xvErrIdxInvalidExp=Invalid expression of index.
+xvErrIdxNotExisting=Index name not found.
+xvErrIdxDeleteError=Error of index deleting:
+xvErrFlieExisting=File %s already exists.
+xvErrFormatParam=Parameter "Format" from SCHEMA.INI does not correspond to extension.
+xvMenuCreateCaption=Create %s
+xvMenuSimpleXmlCaption=Simple
+xvFormNewTableCaption=New table structure for %s
+xvLblTableNameCaption=&1 Table Name:
+xvBtnCreateSQLCaption=&2 Create SQL
+xvLblDecimalSepCaption=Decimal separator for CSV/TAB/HTM files
+xvLblServerName=Server Name:
+xvListTabCaption=List
+xvDownloadTabCaption=Download
+xvChkDisableCaption=Temporarily disable
+xvErrSrvrNotStared=Database server "%s" is not started. Continue?
+xvDlgFileName=File Name:
+xvErrorSQL=SQL Error:
+xvMenuHowTo=How to...
+xvMenuTipsFor=Tips for...
+xvSendMail=Send an e-mail to the developer?
+xvErrNotDelete=Cannot delete the file %s.
+xvErrNotFound=File %s not found.
+xvErrImport=Error of importing:
+xvErrExport=Error of exporting:
+xvErrSQLCreate1=Error of MSSQL-Server file creation:
+xvErrSQLCreate2=MSSQL Server Database "%s" already exists.
+xvErrUDLCreate=Error of Data Link file creation:
+xvErrDSNCreate1=ODBC: Error of loading ODBCCP32.DLL.
+xvErrDSNCreate2=ODBC: Error of getting address for SQLCreateDataSource
+xvErrDSNCreate3=ODBC: Error of getting address for SQLInstallerError
+xvErrMyIdxCreate=Error of MySQL index creation:
+xvErrBdeSession=Current BDE session was lost.
+xvDlgUnRegExtens=All file extensions of the %s are unregistered.
+xvMenuRegister=Register...
+xvMenuHide=Hide
+xvMenuSort=Sort
+xvMenuFind=Find
+xvMenuFilter=Filter
+xvMenuODBC=ODBC DSN...
+xvMenuODBCHint=ODBC Data Sources
+xvMenuBDE=BDE Aliases
+xvMenuBDEHint=Borland Database Aliases
+xvMenuQuickOpen=Quick Open
+xvMenuQuickOpenHint=Limiting results of Select Query
+xvMenuSize=Size
+xvMenuSizeHint=Adjust for size
+xvChangeFont=&Change font
+xvErrFileCreate=Cannot create the file %s.
+xvErrDbfConvert=Cannot convert DBF from OEM (MS-DOS) to ANSI (Windows).
+xvErrFormat=Unknown data format.
+xvErrNetworkPath=Invalid UNC name: %s
+xvMenuNet=Connection
+xvMenuWizard=Wizard
+xvIncorrectFile=File has incorrect format
+xvOnlyOneCopy=Only one copy at a time

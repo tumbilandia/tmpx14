@@ -1,0 +1,452 @@
+﻿
+[Info]
+Language=Ελληνικά (Greek)
+Translator=Dimitrios Valsamis
+Site=www.xbaseview.com
+Support=www.xbaseview.com/support
+Purchase=www.xbaseview.com/purchase.htm
+Download=www.xbaseview.com/download.htm
+Mail=support@xbaseview.com
+HelpFile=English
+ReleaseDate=April 19, 2007
+;
+;- Resources for Components
+;
+[TfrmVsbleFlds]
+Caption=Πεδία (Στήλες) Φανερά
+Caption.OKBtn=&OK
+Caption.CancelBtn=Ά&κυρο
+Caption.GroupBoxAll=Όλα τα Πεδία
+Caption.RadioShow=&1 Εμφάνιση
+Caption.RadioHide=&2 Απόκρυψη
+;
+[TfrmFilterDBF]
+Caption=Φίλτρο Ευρετηρίου
+Caption.OKBtn=&OK
+Caption.CancelBtn=Ά&κυρο
+Caption.lblFieldName=Τιμές του %s:
+Caption.lblMin=Ελάχιστη:
+Caption.lblMax=Μέγιστη:
+;
+[TfrmFilterDlg]
+Caption=Φίλτρο SQL
+Caption.btnOK=&1 OK
+Caption.btnCancel=&2 Άκυρο
+Caption.btnAdvanced=&3 Επόμενο...
+DisplayLabel.mFiltDispLabel=Όνομα Πεδίου
+DisplayLabel.mFiltCriteria=Συνθήκη
+DisplayLabel.mFiltValue=Τιμή
+DisplayLabel.mFiltAndOr=And/Or
+;
+[TfrmFilterDlg2]
+Caption=Επεξεργασία Φίλτου SQL
+Caption.btnOK=&1 OK
+Caption.btnCancel=&2 Άκυρο
+Caption.btnLoad=&3 Ανάκτηση
+Caption.btnSave=&4 Αποθήκευση
+Title.dlgSave=Αποθήκευση Φίλτρου
+;
+[TfrmFindDBF]
+Caption=Αναζήτηση
+Caption.OKBtn=&OK
+Caption.CancelBtn=Ά&κυρο
+;
+[TxBaseInd]
+Caption=Επιλογή Ευρετηρίου
+Caption.OKBtn=&OK
+Caption.CancelBtn=Ά&κυρο
+Caption.SrcLabel=Διαθέσιμα Ευρετήρια
+Caption.DstLabel=Επιλεγμένα Ευρετήρια
+;
+[TfmLangPdox]
+Caption=Οδηγοί Γλώσσας αρχείων Paradox
+Caption.OKBtn=Α&λλαγή
+Caption.CancelBtn=Κλείσιμο
+;
+[TfmCodePage]
+Caption=Κωδικοσελίδες DBF
+Caption.OKBtn=Α&λλαγή
+Caption.CancelBtn=Κλείσιμο
+Caption.AnalyzeButton=Check
+;
+;- Resources for Project
+;
+[TfmXBaseView]
+Caption.mnuRefresh=Ανανέωση (Ctrl+R)
+Hint.sbSqlLoad=|Φόρτωμα τελεστή SQL (Shift+Ctrl+L)
+Hint.sbSqlSelect=|Εκτέλεση τελεστή Select (Shift+Ctrl+R)
+Hint.sbSqlUpdate=|Εκτέλεση τελεστή SQL (Shift+Ctrl+U)
+Hint.sbSqlSave=|Αποθήκευση τελεστή SQL (Shift+Ctrl+S)
+Hint.mnuOpen=Άνοιγμα Φακέλου ή Αρχείου
+Hint.mnuHistory=Άνοιγμα Hot List Φακέλων
+Hint.mnuClose=Κλείσιμο Βάσης Δεδομένων
+Hint.mnuIndex=Δείκτες
+Hint.mnuStruct=Δομή
+Hint.mnuSqlPanel=Πλαίσιο εντολών SQL
+Hint.mnuMultiSelect=Πολλαπλή επιλογή εγγραφών πίνακα
+Hint.mnuHideTree=Δέντρο Φακέλων και Αρχείων
+Hint.mnuHideCaption=Κουμπιά Πλήγησης
+Hint.mnuHideHint=Tool tips
+Hint.mnuExclusive=Άνοιγμα Δεδομένων για Αποκλειστική χρήση
+Hint.mnuReadOnly=Άνοιγμα Δεδομένων για Ανάγνωση μόνο
+Hint.mnuReindex=Επαναδημιουργεία δεικτών
+Hint.mnuPack=Διαγραφή σημαδεμένων εγγραφών
+Hint.mnuZap=Διαγραφή όλων των εγγραφών
+Hint.mnuRename=Αρχείο με τα αρχεία δεικτών του κ.α.
+Hint.mnuAutoCP=Κωδικός Γλώσσας συμβολοσειρών
+Hint.mnuConvert=Μετάφραση συμβολοσειρών
+Hint.mnuFileTypes=Καταχώρηση κατάληξης αρχείων
+Caption.LanguageMenu=Γλώσσα
+Caption.mnuConvert=Μετατροπή
+Caption.mnuAbout=Περί...
+Caption.mnuImport=Εισαγωγή
+Caption.mnuOpen2=Άνοιγμα (Enter)
+Caption.mnuClose2=Κλείσιμο (Ctrl+W)
+Caption.mnuExpand=Επέκταση (Plus)
+Caption.mnuCollapse=Συμπύκνωση (Minus)
+Caption.mnuUpLevel=Προηγ. Επίπεδο (Ctrl+BkSp)
+Caption.mnuSqlClear=Διαγραφή Ερωτήματος (Ctrl+Y)
+Caption.mnuSqlTmplSel=Ερώτημα Επιλογής (S+Ctrl+J)
+Caption.mnuSqlTmplIns=Ερώτημα Εισαγωγής (I+Ctrl+J)
+Caption.mnuSqlTmplUpd=Ερώτημα Ενημέρωσης (U+Ctrl+J)
+Caption.mnuSqlTmplDel=Ερώτημα Διαγραφής (D+Ctrl+J)
+Caption.mnuCopy=Αντιγραφή (Ctrl+C)
+Caption.mnuPaste=Επικόλληση (Ctrl+V)
+Title.OpenImport=Εισαγωγή από
+Caption.FileMenu=Αρχείο
+Caption.ViewMenu=Προβολή
+Caption.ToolsMenu=Εργαλεία
+Caption.ExportMenu=Εξαγωγή
+Caption.HelpMenu=Βοήθεια
+Caption.mnuExit=Έξοδος
+Caption.mnuFileTypes=Τύποι αρχείων
+Caption.mnuOpen=Άνοιγμα...
+Caption.mnuHistory=Πρόσφατα αρχεία...
+Caption.mnuClose=Κλείσιμο
+Caption.mnuIndex=Εργαλεία...
+Caption.mnuStruct=Δομή...
+Caption.mnuSaveStatus=Αποθήκευση
+Caption.mnuSqlPanel=Πλαίσιο SQL
+Caption.mnuMultiSelect=Πολλαπλή  Επιλογή
+Caption.mnuHideTree=Πλαίσιο Δέντρου
+Caption.mnuHideCaption=Απόκρυψη Λεζάντας
+Caption.mnuHideHint=Απόκρυψη Tool Tips
+Caption.mnuExclusive=Αποκλειστική
+Caption.mnuReadOnly=Μόνο για Ανάγνωση
+Caption.mnuParameters=Επιλογές...
+Caption.mnuDriversInfo=Οδηγοί DB
+Caption.mnuHelpIndex=Περιεχόμενα
+Caption.mnuHelpKeys= Πληκτρολόγιο
+Caption.mnuErrorInfo=Πληροφορίες Σφάλματος
+Caption.mnuReindex=Δεικτοδότηση
+Caption.mnuPack=Συμπίεση DB
+Caption.mnuZap=Zap DB
+Caption.mnuRename=Μετονομασία
+Caption.mnuAutoCP=Γλώσσα
+Title.SaveSQL=Αποθήκευση SQL
+;
+[TfmIndex]
+Caption=Ευρετήρια του %s
+Caption.sbAddTag=&1 Προσθήκη Ευρετηρίου
+Caption.sbDelTag=&2 Διαγραφή Ευρετηρίου
+Caption.sbDelCDX=&3 Διαγραφή Αρχείου
+Caption.lbInfo=Αναμονή...
+Caption.btnClose=&4 Κλείσιμο
+Caption.lblFiledsList=Λίστα Πεδίων:
+Caption.lblIndexes=Ευρετήρια:
+Caption.lblIndexName=Όνομα Ευρετηρίο (Tag ή Αρχείο):
+Caption.lblIndexType=Τύπος Ευρετηρίου:
+Caption.lblIndexExpr=Έκφραση Κλειδιού:
+Caption.lblCollate=Όνομα Κατάταξης:
+Caption.chkUniq=Μοναδικό Ευρετήριο
+Caption.chkDesc=Ευρέτηριο Φθίνουσας Κατάταξης
+;
+[TfmStruct]
+Caption=Δομή του %s
+Caption.sbModifyDBF=&1 Μεταβολή DBF
+Caption.sbCreateDBF=&2 Δημιουργία DBF
+Caption.lbInfo=Αναμονή...
+Caption.lbDbfType=&Τύπος DBF:
+Caption.sbPrintStruct=&3 Εκτύπωση Δομής
+Caption.btnClose=&4 Κλείσιμο
+DisplayLabel.fldName=Πεδίο
+DisplayLabel.fldType=Τύπος
+DisplayLabel.fldLen=Μέγεθος
+DisplayLabel.fldDec=Δεκαδικά
+;
+[TfmStructPdox]
+Caption=Δομή του %s
+Caption.sbModifyDBF=&1 Αποθήκευση ως
+Caption.sbCreateDBF=&2 Δημιουργία Νέου
+Caption.lbInfo=Αναμονή...
+Caption.sbPrintStruct=&3 Εκτύπωση Δομής
+Caption.btnClose=&4 Κλείσιμο
+DisplayLabel.fldName=Πεδίο
+DisplayLabel.fldType=Τύπος
+DisplayLabel.fldLen=Μέγεθος
+DisplayLabel.fldPrimKey=Πρωτεύων.Κλειδί
+DisplayLabel.fldSecKey=Ευρετήριο
+DisplayLabel.fldReq=Υποχρεωτικό
+;
+[TfmLogin]
+Caption=Σύνδεση στο %s
+Caption.Label1=Login:
+Caption.Label2=Password:
+Caption.Button1=Συνέχεια
+Caption.Button2=Άκυρο
+;
+[TfmParams]
+Caption=Επιλογές
+Caption.OKBtn=OK
+Caption.CancelBtn=Άκυρο
+Caption.Label1=Login:
+Caption.Label2=Password:
+Caption.Label4=Character Set:
+Caption.Label5=Διάλεκτος SQL:
+Caption.chkRecordCount=Αριθμός Εγγραφών SQL Βάσης Δεδομένων
+Caption.lblGridColSize=Μέγεθος Στήλης αρχείων Excel και Text
+Caption.lblDbfExt2=Εναλλακτική Επέκταση Αρχείων DBF
+Caption.lblDelimiter=Διαχωριστικός χαρακτήρας Πεδίων αρχείου CSV
+Caption.chkNoHeader=Αρχείο XLS/CSV/TAB/HTM χωρίς επικεφαλίδα (ονόματα πεδίων)
+Caption.chkNoMaximize=Δίχως μεγιστοποίηση κατά την εκκίνηση
+Caption.chkFlatInterface=Επίπεδη εμφάνιση
+Caption.chkSingleClick=Άνοιγμα πίνακα με απλό κλικ
+Caption.StartupGroup=Επιλογές εκκίνησης
+Caption.OthersGroup=Άλλες επιλογές
+Caption.SerDirGroup=Φάκελος Υπηρεσιών
+Caption.rgSelectDirectory=Επιλογή Φακέλου
+Caption.rgMessageBox=Εξαγωγή Μηνύματος
+Caption.ViewTab=Προβολή
+Caption.GeneralTab=Γενικά
+Caption.DriversTab=Οδηγοί
+xvSelDirItem0=μέσω διαλόγου της Borland
+xvSelDirItem1=μέσω διαλόγου των Windows
+xvMesBoxItem0=στη μπάρα κατάστασης
+xvMesBoxItem1=στο πλαίσιο κειμένου
+Caption.LabelHost=Όνομα Υπολογιστή Υπηρεσίας or IP:
+Caption.chkIbLoginPrompt=Είσοδος/Login
+Caption.lblCurrencyFormat=Numeric Format
+;
+[TfmHistory]
+Caption=Επιλογή φακέλου - [Enter] ή διπλό κλικ
+Caption.Column1=Φάκελος
+Caption.Column2=Μετρητής
+;
+[TfmWizard]
+Caption=Δημιουργία Σύνδεσης
+Caption.btnBack=&1 Προηγούμενο
+Caption.btnCancel=&3 Ακύρωση
+Caption.btnConTest=Δοκιμή σύνδεσης
+Caption.btnDbSearch=Αναζήτηση ΒΔ
+Caption.btnFinish=&2 Τέλος
+Caption.btnNext1=&2 Επόμενο
+Caption.btnNext2=&2 Επόμενο
+Caption.btnNext3=&2 Επόμενο
+Caption.btnNext4=&2 Επόμενο
+Caption.btnNext5=&2 Επόμενο
+Caption.btnNext6=&2 Επόμενο
+Caption.chkSavePassw=Αποθήκευση password
+Caption.lblConName=Όνομα αρχείου σύνδεσης:
+Caption.lblDbName=Όνομα ΒΔ:
+Caption.lblHelp1=Επιλογή Συστήματος ΒΔ
+Caption.lblHelp2=Καθορισμός παραμέτρων Συστήματος ΒΔ
+Caption.lblHelp3=Καθορισμός παραμέτρων Συστήματος ΒΔ
+Caption.lblHelp4=Καθορισμός παραμέτρων Συστήματος ΒΔ
+Caption.lblHelp5=Επιλογή ΒΔ
+Caption.lblHelp6=Καθορισμός ονόματος
+Caption.lblHelp7=Καθορισμός ονόματος αρχείου σύνδεσης
+Caption.lblMsg1=Επιτυχής σύνδεση
+Caption.lblMsg2=Αποτυχία σύνδεσης
+Caption.lblMsg3=Αδυναμία επιλογής λιστας ΒΔ
+Caption.lblHintInterbase=Also use an alias from ALIASES.CONF as Server_Name:Database_Name
+;
+[TfmOracle]
+Caption.Label1=&Oracle SID:
+Caption.Label2=&Login:
+Caption.Label3=&Password:
+Caption.Label4=&UDL File Name:
+Caption.btnOK=&OK
+Caption.btnCancel=&Cancel
+;
+;- Public Resources
+;
+[TxPublicSection]
+;- Navigator
+xBtnCapFirstRecord=Αρχή
+xBtnCapPriorRecord=Πάνω
+xBtnCapNextRecord=Κάτω
+xBtnCapLastRecord=Τέλος
+xBtnCapInsertRecord=Νέο
+xBtnCapEditRecord=Επεξεργασία
+xBtnCapDeleteRecord=Διαγραφή
+xBtnCapPostEdit=Αποθήκευση
+xBtnCapCancelEdit=Άκυρο
+xBtnCapFindRecord=Αναζήτηση
+xBtnCapFilterRecord=Φίλτρο
+xBtnCapPrintRecord=Εκτύπωση
+xBtnCapRefreshRecord=Ανανέωση
+xBtnHintFirstRecord=Πρώτη εγγραφή
+xBtnHintPriorRecord=Προηγούμενη εγγραφή
+xBtnHintNextRecord=Επόμενη εγγραφή
+xBtnHintLastRecord=Τελευταία εγγραφή
+xBtnHintInsertRecord=Εισαγωγή εγγραφής
+xBtnHintEditRecord=Επεξεργασία εγγραφήε
+xBtnHintDeleteRecord=Διαγραφή εγγραφής
+xBtnHintPostEdit=Αποθήκευση εγγραφής
+xBtnHintCancelEdit=Ακύρωση επεξεργασίας
+xBtnHintFindRecord=Αναζήτηση
+xBtnHintFilterRecord=Φίλτρο ή Απόκρυψη στηλών
+xBtnHintPrintRecord=Εκτύπωση δεδομένων
+xBtnHintRefreshRecord=Ανανέωση δεδομένων
+xBtnDeleteRecordQuestion=Διαγραφή εγγραφής?
+xBtnDeleteAllRecordQuestion=Διαγραφή επιλεγμένων εγγραφών?
+;- Dialogues
+xbDlgCaption1=Ανάκτηση φίλτρου
+xbDlgText01=Το ευρετήριο %s έχει οριστεί:#13%s#13Αναμενόμενη έκφραση:#13%s#13Αντικατάσταση ευρετηρίου?
+xbDlgText02=Δημιουργία %s Σύνθετου Κλειδιού για το πεδίο %s?
+xbDlgText031=Ευρετήριου πεδίου %s
+xbDlgText032=Όνομα αρχείου ευρετηρίου με επέκταση:
+xbDlgText033=%s Όνομα Αρχείου Ευρετηρίου:
+xbDlgText051=Πίεσατε το πλήκτρο Esc. Θέλετε να ακυρώστε την εργασία?
+xbDlgText070=Εγγραφές που απομένουν : άγνωστες (Πιέστε Esc για παύση)
+xbDlgText071=Εγγραφές που απομένουν : 0
+xbDlgText072=Εγγραφές που απομένονυ: %d (Πιέστε Esc για παύση)
+xbDlgText080=Δεν υπάρχει Πρωτεύων Κλειδί.#13Να δημιουργηθεί για το πεδίο %s;
+xbDlgText081=Δημιουργία ευρετηρίου για το πεδίο %s;
+;- Miscellaneous & Εξαγωγή
+xSOKButton=OK
+xSCancelButton=Ακύρωση
+xSSelectDirCap=Επιλέξτε Φάκελο
+xSDirNameCap=Όνομα Φακέλου:
+xSDrivesCap=Δίσκοι:
+xSDirsCap=Φάκελοι:
+xSFilesCap=Αρχεία: (*.*)
+xSNetworkCap=Δίκτυο...
+xMsgDlgWarning=Προσοχή
+xMsgDlgError=Σφάλμα
+xMsgDlgInformation=Πληροφορίες
+xMsgDlgConfirm=Επιβεβαίωση
+xMsgDlgYes=Ναι
+xMsgDlgNo=Όχι
+xMsgDlgOK=OK
+xMsgDlgCancel=Ακύρωση
+xMsgDlgAbort=Ματαίωση
+xMsgDlgRetry=Επανάληψη
+xMsgDlgIgnore=Παράβλεψη
+xMsgDlgAll=Όλα
+xMsgDlgNoToAll=Όχι σε Όλα
+xMsgDlgYesToAll=Ναί σε Όλα
+xMsgDlgHelp=Βοήθεια
+xMsgCaption=Πληροφορίες
+xCnfrmCaption=Επιβεβαίωση
+xDlgOverwrite=Αντικατάσταση του αρχείου:#13%s;
+xExportDlgCap=Εξαγωγή στο %s
+xExportErrNoAsgn=Μη προσδιορισμένο Data Set
+xExportErrNoActv=Ανενεργό Data Set
+xExportErrNoName=Το αρχείου Αποθήκευσης λείπει
+xExportErrUnknwn=Λάθος της Εξαγωγής:#13%s
+;
+;- Strings of Project
+;
+xvDlgRegExtens=Χρήση του %s για το άνοιγμα αρχείων με αυτή τη κατάληξη, εκτός .XLS, .HTML;
+xvDlgErrPlugin=Πιθανώς ολέθριο σφάλμα:#13%s#13Θέλετε να τερματίσετε το plugin;
+xvDlgDBSave=Αποθήκευση αλλαγών στην Βάση Δεδομένων;
+xvDlgSqlSave=Αποθήκευση κειμένου SQL;
+xvDlgReindex=Δεικτοδότηση ΒΔ;
+xvDlgPack=Συμπίεση ΒΔ;
+xvDlgZap=Διαγραφή όλων των εγγραφών από την ΒΔ;
+xvDlgDeleteIdx=Διαγραφή αρχείου(ων) Ευρετηρίου;
+xvDlgRenCaption=Μετονομασία
+xvDlgRenPrompt=Νέο Όνομα:
+xvDlgUdlTxt=Όνομα Αρχείου DataLink:
+xvInfoText1=Μήκος:
+xvInfoText2=Πεδία:
+xvInfoText3=Κωδικοσελίδα:
+xvInfoText4=Ταξινόμιση:
+xvInfoText5=Ευρετήριο:
+xvInfoText6=[Φίλτρο]
+xvInfoText7=Γλώσσα:
+xvInfoText8=[Φίλτρο SQL]
+xvMsgOK=Ολοκληρώθηκε Επιτυχώς.
+xvMsgReady=Ready
+xvMsgWait=Αναμονή...
+xvMsgDriversInfo=Οδηγοί Βάσεων Δεδομένων από το Μητρώο Συστήματος και τον Δίσκο:
+xvMsgUserCancel=Η λειτουργία ματαιώθηκε.
+xvExportMsg3=Δεν είναι δυνατή η αντικατάσταση του ιδίου αντικειμένου.
+xvMsgRestart=Πρέπει να γίνει επανεκκίνηση του προγράμματος.
+xvMsgDbfEmptyCP=Η Κωδικοσελίδα του αρχείου DBF είναι μηδενική!
+xvMsgDbfConvert=Μετάφραση χαρακτήρων DBF από %s σε %s;
+xvBadDataSet=Αδυναμία ανοίγματος ΔΒ. Η ΔΒ είναι κενή.
+xvErrExcelBook=Διαγραφή όλα των εγγραφών του Excel, εκτός του Πίνακα.
+xvErrRename=Λάθος κατά την μετονομασία του Αρχείου %s:#13%s
+xvErrBdeCon=BDE Αποτυχία σύνδεσης.
+xvErrSchema=Σφάλμα κατά την ανάγνωση του Σχήματος της ΒΔ:
+xvErrUnknDbf=Σφάλμα κατά το άνοιγμα DBF, πιθανόν λάθος τύπος DBF.
+xvErrorSelect=Σφάλμα SQL Select:
+xvErrMemory=Ανεπαρκής μνήνη συστήματος.
+xvErrCreate=Αναπάντεχο Σφάλμα στην Create Window:
+xvErrOpenDBF=ΣΦΑΛΜΑ ΚΑΤΑ ΤΟ ΑΝΟΙΓΜΑ ΒΔ.
+xvErrDestroyWindow=Σφάλμα κατά την κατασταφή του window plugin:
+xvErrCreateDBF=Σφάλμα δημιουργίας DBF:
+xvErrCreateIdx=Σφάλμα δημιουργίας ευρετηρίου:
+xvErrCreateSelfDBF=Σφάλμα. Δεν είναι δυνατή η δημιουργία του ιδίου αντικειμένου.
+xvErrCreateCopyDBF=Σφάλμα κατά την Αντιγραφή DBF.
+xvErrModifyDBF=Error Σφάλμα κατά την Μεταβολή DBF:
+xvErrIdxExisting=Το ευρετήριο υπάρχει ήδη.
+xvErrIdxExpExisting=Η έκφαση του ευρετηρίου υπάρχει ήδη.
+xvErrIdxInvalidExp=Σφάλμα στην έκφραση κλειδιού.
+xvErrIdxNotExisting=Το όνομα του ευρετηρίου δεν υπάρχει.
+xvErrIdxDeleteError=Σφάλμα κατά την διαγραφή του ευρετηρίου:
+xvErrFlieExisting=Το αρχείο %s υπάρχει ήδη.
+xvErrFormatParam=Η παράμετρος "Format" του SCHEMA.INI δεν αντιστοιχεί σε κάποια επέκταση.
+xvMenuCreateCaption=Δημιουργία %s
+xvMenuSimpleXmlCaption=Βασικό
+xvFormNewTableCaption=Νέα Δομή Πίνακα για %s
+xvLblTableNameCaption=&1 Όνομα Πίνακα:
+xvBtnCreateSQLCaption=&2 Δημιουργία SQL
+xvLblDecimalSepCaption=Αριθμητικό Διαχωριστικό για αρχεία τύπου CSV/TAB/HTM:
+xvLblServerName=Όνομα Διακομιστή:
+xvListTabCaption=Λίστα
+xvDownloadTabCaption=Λήψη
+xvChkDisableCaption=Προσωρινή διακοπή
+xvErrSrvrNotStared=Ο διακομιστής βάσεων δεδομένων "%s" δεν είναι ενεργός. Θέλετε να συνεχίσετε?
+xvDlgFileName=Όνομα Αρχείου:
+xvErrorSQL=Σφάλμα SQL:
+xvMenuHowTo=Πως να...
+xvMenuTipsFor=Συμβουλή για...
+xvSendMail=Αποστολή e-mail στον προγραμματιστή?
+xvErrNotDelete=Αδυναμία διαγραφής τους αρχείου %s.
+xvErrNotFound=Το αρχείο %s δεν βρέθηκε.
+xvErrImport=Σφάλμα κατά την εισαγωγή:
+xvErrExport=Σφάλμα κατά την εξαγωγή:
+xvErrSQLCreate1=Σφάλμα κατά την δημιουργία αρχείου Error of MSSQL-Server:
+xvErrSQLCreate2=Η βάση δεδομένων "%s" υπάρχει ήδη στον MSSQL Server.
+xvErrUDLCreate=Σφάλμα κατά την διμιουργία Αρχείου Διασύνδεσης:
+xvErrDSNCreate1=ODBC: Σφάλμα κατά το φόρτωμα του ODBCCP32.DLL.
+xvErrDSNCreate2=ODBC: Σφάλμα στην εύρεση διεύθυνσης του SQLCreateDataSource
+xvErrDSNCreate3=ODBC: Σφάλμα στην εύρεση διεύθυνσης του SQLInstallerError
+xvErrMyIdxCreate=Σφάλμα στην δημιουργία αρχείου δεικτών MySQL:
+xvErrBdeSession=Χάθηκε η τρέχουσα σύνδεση με την μηχανή BDE.
+xvDlgUnRegExtens=Δεν έχει καταχωρηθεί κανένας τύπος για το %s.
+xvMenuRegister=Δήλωση...
+xvMenuHide=Απόκρυψη
+xvMenuSort=Sort
+xvMenuFind=Αναζήτηση
+xvMenuFilter=Φίλτρο
+xvMenuODBC=ODBC DSN...
+xvMenuODBCHint=Πηγές Δεδομένων ODBC
+xvMenuBDE=Συνώνυμα BDE
+xvMenuBDEHint=Συνώνυμα Βάσεων Δεδομένων της Borland
+xvMenuQuickOpen=Γρήγορη Προβολή
+xvMenuQuickOpenHint=Περιορισμένη προβολή αποτελεσμάτων ερωτήματος Select
+xvMenuSize=Μέγεθος
+xvMenuSizeHint=Προσαρμογή μεγέθους (του Πλέγματος Βάσης Δεδομένων)
+xvChangeFont=&Αλλαγή γραμματοσειράς
+xvErrFileCreate=Αδυναμία δημιουργίας του αρχείου %s.
+xvErrDbfConvert=Αδυναμία μετατροπής αρχείου DBF από OEM (MS-DOS) σε ANSI (Windows).
+xvErrFormat=Άγνωστη μορφή δεδομένων.
+xvErrNetworkPath=Λανθασμένο όνομα UNC: %s
+xvMenuNet=Συνδέση
+xvMenuWizard=Καθοδήγηση
+xvIncorrectFile=Μη αναγνωρίσιμη μορφή αρχείου
+xvOnlyOneCopy=Μόνο ένα αντίγραφο κάθε φορά

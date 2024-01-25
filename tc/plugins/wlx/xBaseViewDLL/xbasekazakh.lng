@@ -1,0 +1,452 @@
+﻿
+[Info]
+Language=Қазақша (Kazakh)
+Translator=Дархан Құтжанов
+Site=www.xbaseview.com
+Support=www.xbaseview.com/support
+Purchase=www.xbaseview.com/purchase.htm
+Download=www.xbaseview.com/download.htm
+Mail=support@xbaseview.com
+HelpFile=Russian
+ReleaseDate=April 19, 2007
+;
+;- Компоненттер ресурстерi
+;
+[TfrmVsbleFlds]
+Caption=Бағаналарды (өрістерді) жасыру
+Caption.OKBtn=OK
+Caption.CancelBtn=Доғару
+Caption.GroupBoxAll=Барлық бағаналар
+Caption.RadioShow=&1 Көрсету
+Caption.RadioHide=&2 Жасыру
+;
+[TfrmFilterDBF]
+Caption=Индекстi филтьр
+Caption.OKBtn=OK
+Caption.CancelBtn=Доғару
+Caption.lblFieldName= %s өрісінің мәндерi:
+Caption.lblMin=Минимум:
+Caption.lblMax=Максимум:
+;
+[TfrmFilterDlg]
+Caption=SQL фильтр
+Caption.btnOK=&1 OK
+Caption.btnCancel=&2 Доғару
+Caption.btnAdvanced=&3 Тағы...
+DisplayLabel.mFiltDispLabel=Өріс аты
+DisplayLabel.mFiltCriteria=Шарт
+DisplayLabel.mFiltValue=Мәнi
+DisplayLabel.mFiltAndOr=Жалғау
+;
+[TfrmFilterDlg2]
+Caption=SQL фильтрдi өңдеу
+Caption.btnOK=&1 OK
+Caption.btnCancel=&2 Доғару
+Caption.btnLoad=&3 Жүктеу
+Caption.btnSave=&4 Сақтау
+Title.dlgSave=Фильтрдi жазу
+;
+[TfrmFindDBF]
+Caption=Iздеу
+Caption.OKBtn=OK
+Caption.CancelBtn=Доғару
+;
+[TxBaseInd]
+Caption=Индекстiк файлдар
+Caption.OKBtn=OK
+Caption.CancelBtn=Доғару
+Caption.SrcLabel=Табылған индекстер:
+Caption.DstLabel=Таңдап алынған индекстер:
+;
+;- Проект ресурстерi
+;
+[TfmLangPdox]
+Caption=Paradox тiл драйверлерi
+Caption.OKBtn=&Өзгерту
+Caption.CancelBtn=Жабу
+;
+[TfmCodePage]
+Caption=DBF бет шифрлары
+Caption.OKBtn=&Өзгерту
+Caption.CancelBtn=Жабу
+Caption.AnalyzeButton=Тексеру
+;
+[TfmXBaseView]
+Caption.mnuRefresh=Жаңарту (Ctrl+R)
+Hint.sbSqlLoad=|SQL-операторды жүктеу (Shift+Ctrl+L)
+Hint.sbSqlSelect=|Select-операторды орындау (Shift+Ctrl+R)
+Hint.sbSqlUpdate=|SQL-операторды орындау (Shift+Ctrl+U)
+Hint.sbSqlSave=|SQL-операторды сақтау (Shift+Ctrl+S)
+Hint.mnuOpen=Каталог немесе файлды ашу
+Hint.mnuHistory=Тiзiмнен ескi каталог алу
+Hint.mnuClose=Базды жабу
+Hint.mnuIndex=Индекс үшiн диалог
+Hint.mnuStruct=Құрылым үшiн диалог
+Hint.mnuSqlPanel=SQL амалдары үшiн терезе
+Hint.mnuMultiSelect=Кестеде бiрнеше жол белгiлеу
+Hint.mnuHideTree=Каталог пен файлдар ағашы
+Hint.mnuHideCaption=Навигация түймелерi
+Hint.mnuHideHint=Түймелер кеңестерi
+Hint.mnuExclusive=Базды жеке-дара ашу
+Hint.mnuReadOnly=Базды тек оқу үшiн ашу
+Hint.mnuReindex=Индекстердi қайта құру
+Hint.mnuPack=Бұрын белгiленген жолдарды өшіру
+Hint.mnuZap=Барлық жолдарды өшіру
+Hint.mnuRename=Файл, оның индексi, т.б.
+Hint.mnuAutoCP=Символдық өрістер тiлiнiң коды
+Hint.mnuConvert=Символдық өрістерді аудару
+Hint.mnuFileTypes=Файлдар түрлерiн тiркеу
+Caption.LanguageMenu=Тiл
+Caption.mnuConvert=DBF-ты аудару
+Caption.mnuAbout=Туралы
+Caption.mnuImport=Импорт
+Caption.mnuOpen2=Ашу (Enter)
+Caption.mnuClose2=Жабу (Ctrl+W)
+Caption.mnuExpand=Шашу (Plus)
+Caption.mnuCollapse=Жинау (Minus)
+Caption.mnuUpLevel=Үстіге (Ctrl+BkSp)
+Caption.mnuSqlClear=SQL тазалау (Ctrl+Y)
+Caption.mnuSqlTmplSel=SQL Select (S+Ctrl+J)
+Caption.mnuSqlTmplIns=SQL Insert (I+Ctrl+J)
+Caption.mnuSqlTmplUpd=SQL Update (U+Ctrl+J)
+Caption.mnuSqlTmplDel=SQL Delete (D+Ctrl+J)
+Caption.mnuCopy=Көшiру (Ctrl+C)
+Caption.mnuPaste=Енгiзу (Ctrl+V)
+Title.OpenImport=Шеттен алу
+Caption.FileMenu=Файл
+Caption.ViewMenu=Кескiн
+Caption.ToolsMenu=Аспап
+Caption.ExportMenu=Экспорт
+Caption.HelpMenu=Көмек
+Caption.mnuExit=Шығу
+Caption.mnuFileTypes=Файл түрлерi
+Caption.mnuOpen=Ашу...
+Caption.mnuHistory=Тарих...
+Caption.mnuClose=Жабу
+Caption.mnuIndex=Индекстер...
+Caption.mnuStruct=Құрылым...
+Caption.mnuSaveStatus=Сақтау
+Caption.mnuSqlPanel=SQL терезесi
+Caption.mnuMultiSelect=Көп белгiлеу
+Caption.mnuHideTree=Ағаш терезесi
+Caption.mnuHideCaption=Жазуларсыз
+Caption.mnuHideHint=Кеңестерсiз
+Caption.mnuExclusive=Жалғыз дара
+Caption.mnuReadOnly=Тек қана оқу
+Caption.mnuParameters=Параметрлер...
+Caption.mnuDriversInfo=Драйвер
+Caption.mnuHelpIndex=Мазмұны
+Caption.mnuHelpKeys=Пернелiк
+Caption.mnuErrorInfo=Қателер
+Caption.mnuReindex=Индекстеу
+Caption.mnuPack=Базды жинау
+Caption.mnuZap=Оны тазалау
+Caption.mnuRename=Атын өзгерту
+Caption.mnuAutoCP=Тiл шифры
+Title.SaveSQL=SQL-дi сақтау
+;
+[TfmIndex]
+Caption=%s индекстерi
+Caption.sbAddTag=&1 Индексті жасау
+Caption.sbDelTag=&2 Индекстi өшіру
+Caption.sbDelCDX=&3 Файлды өшіру
+Caption.lbInfo=Күте тұр...
+Caption.btnClose=&4 Жабу
+Caption.lblFiledsList=Өрістер тiзiмi:
+Caption.lblIndexes=Индекс:
+Caption.lblIndexName=Индекс (тег немесе файл) аты:
+Caption.lblIndexType=Индекс түрi:
+Caption.lblIndexExpr=Индекс өрнегi:
+Caption.lblCollate=Сұрыптау ретi:
+Caption.chkUniq=Қайталанбас индекс
+Caption.chkDesc=Кемитiн индекс
+;
+[TfmStruct]
+Caption=%s құрылымы
+Caption.sbModifyDBF=&1 Базды өзгерту
+Caption.sbCreateDBF=&2 Базды жасау
+Caption.lbInfo=Күте тұр...
+Caption.lbDbfType=&Баз түрi:
+Caption.sbPrintStruct=&3 Баспаға беру
+Caption.btnClose=&4 Жабу
+DisplayLabel.fldName=Өрістің аты
+DisplayLabel.fldType=Түрi
+DisplayLabel.fldLen=Ұзындығы
+DisplayLabel.fldDec=Дәлдігі
+;
+[TfmStructPdox]
+Caption=%s құрылымы
+Caption.sbModifyDBF=&1 Өзге сақтау
+Caption.sbCreateDBF=&2 Базды жасау
+Caption.lbInfo=Күте тұр...
+Caption.sbPrintStruct=&3 Баспаға беру
+Caption.btnClose=&4 Жабу
+DisplayLabel.fldName=Өріс аты
+DisplayLabel.fldType=Түрi
+DisplayLabel.fldLen=Ұзындығы
+DisplayLabel.fldPrimKey=Алғашқы кiлт
+DisplayLabel.fldSecKey=Индекс
+DisplayLabel.fldReq=Керек
+;
+[TfmLogin]
+Caption=%s файлымен байланыс апаты
+Caption.Label1=Логин:
+Caption.Label2=Пароль:
+Caption.Button1=OK
+Caption.Button2=Доғару
+;
+[TfmParams]
+Caption=Параметрлер
+Caption.OKBtn=OK
+Caption.CancelBtn=Доғару
+Caption.Label1=Пайдаланушы логинi:
+Caption.Label2=Пайдаланушы паролi:
+Caption.Label4=Символдар жиыны:
+Caption.Label5=SQL диалектiсi:
+Caption.chkRecordCount=SQL баздың жолдарын санап отыру керек
+Caption.lblGridColSize=Тым ұзын символ типтi өріс бағанасының енi
+Caption.lblDbfExt2=DBF файлының 2-шi түрi (файл атының кеңуi)
+Caption.lblDelimiter=CSV файлындағы өрістердің шектегiшi
+Caption.chkNoHeader=XLS/CSV/TAB/HTM файлында өрістер аттары жоқ
+Caption.chkNoMaximize=Бүкiл экранды алмау керек
+Caption.chkFlatInterface=Түймелер томпақ емес болсын
+Caption.chkSingleClick=Кестенi бiр шертумен ашу керек
+Caption.StartupGroup=Жiберу опциялары
+Caption.OthersGroup=Басқа опциялар
+Caption.SerDirGroup=Қызмет бумасы
+Caption.rgSelectDirectory=Буманы ашу
+Caption.rgMessageBox=Шығару туралы хабар
+Caption.ViewTab=Кескiн
+Caption.GeneralTab=Жалпы
+Caption.DriversTab=Драйвер
+xvSelDirItem0=Borland терезесi арқылы
+xvSelDirItem1=Windows терезесi арқылы
+xvMesBoxItem0=жағдай жолында
+xvMesBoxItem1=бөлек терезеде
+Caption.LabelHost=Хост аты немесе IP:
+Caption.chkIbLoginPrompt=Пароль талап етiлсiн
+Caption.lblCurrencyFormat=Сандық формат
+;
+[TfmHistory]
+Caption=Буманы ашу - [Enter] немесе DoubleClick
+Caption.Column1=Бума аты
+Caption.Column2=Неше рет
+;
+[TfmWizard]
+Caption=Байланыс шеберi
+Caption.btnBack=&1 Кейiн
+Caption.btnCancel=&3 Доғару
+Caption.btnConTest=Байланысты тексеру
+Caption.btnDbSearch=Деректер базасын iздеу
+Caption.btnFinish=&2 Дайын
+Caption.btnNext1=&2 Келесi
+Caption.btnNext2=&2 Келесi
+Caption.btnNext3=&2 Келесi
+Caption.btnNext4=&2 Келесi
+Caption.btnNext5=&2 Келесi
+Caption.btnNext6=&2 Келесi
+Caption.chkSavePassw=Парольдi сақтау
+Caption.lblConName=Байланыс файлының аты:
+Caption.lblDbName=Деректер базасынның аты:
+Caption.lblHelp1=ДҚБЖ таңдау керек
+Caption.lblHelp2=ДҚБЖ параметрлерiн енгiзу керек
+Caption.lblHelp3=ДҚБЖ параметрлерiн енгiзу керек
+Caption.lblHelp4=ДҚБЖ параметрлерiн енгiзу керек
+Caption.lblHelp5=Деректер базасын таңдау керек
+Caption.lblHelp6=Деректер базасының атын енгiзу керек
+Caption.lblHelp7=Байланыс файлының атын енгiзу керек
+Caption.lblMsg1=Байланыс орнатылды
+Caption.lblMsg2=Байланыс орнату мүмкiн емес
+Caption.lblMsg3=Деректер базаларының тiзiмiн алу мүмкiн емес
+Caption.lblHintInterbase=Server_Name:Database_Name түрiнде ALIASES.CONF-тан алиасты беруге болады
+;
+[TfmOracle]
+Caption.Label1=&Oracle SID:
+Caption.Label2=Логин:
+Caption.Label3=Пароль:
+Caption.Label4=UDL-файл аты:
+Caption.btnOK=OK
+Caption.btnCancel=Доғару
+;
+;- Ортак ресурстер
+;
+[TxPublicSection]
+;- Навигатор
+xBtnCapFirstRecord=Басы
+xBtnCapPriorRecord=Кейін
+xBtnCapNextRecord=Ілгері
+xBtnCapLastRecord=Соңы
+xBtnCapInsertRecord=Жаңа
+xBtnCapEditRecord=Өңдеу
+xBtnCapDeleteRecord=Жою
+xBtnCapPostEdit=Сақтау
+xBtnCapCancelEdit=Доғару
+xBtnCapFindRecord=Iздеу
+xBtnCapFilterRecord=Фильтр
+xBtnCapPrintRecord=Баспа
+xBtnCapRefreshRecord=Оқу
+xBtnHintFirstRecord=Бiрiншi жол
+xBtnHintPriorRecord=Алдыңғы жол
+xBtnHintNextRecord=Келесi жол
+xBtnHintLastRecord=Соңғы жол
+xBtnHintInsertRecord=Қосу / Көшiру
+xBtnHintEditRecord=Жолды өзгерту
+xBtnHintDeleteRecord=Жолды өшіру
+xBtnHintPostEdit=Өзгерiстердi сақтау
+xBtnHintCancelEdit=Өзгерiстердi сақтамау
+xBtnHintFindRecord=Iздеу / Адымдау
+xBtnHintFilterRecord=Фильтр / Көрiнiс
+xBtnHintPrintRecord=Жолдарды баспаға беру
+xBtnHintRefreshRecord=Жолдарды қайтадан оқу
+xBtnDeleteRecordQuestion=Бұл жолды өшіресіз бе?
+xBtnDeleteAllRecordQuestion=Белгiленген жолдарды өшіресіз бе?
+;- Диалогтар
+xbDlgCaption1=Фильтрдi тиеу
+xbDlgText01=%s индексiнiң өрнегi:#13%s#13Күтiлген өрнек:#13%s#13Индекстi алмастырайық па?
+xbDlgText02=%s құрама индексiн %s өрісі үшiн жасаймыз ба?
+xbDlgText031=%s ушiн индекс
+xbDlgText032=Индекс файлының аты (түрiмен қоса):
+xbDlgText033=%s индекс файлының аты:
+xbDlgText051=Esc пернесi басылды. Жұмысты доғарамыз ба?
+xbDlgText070=Қалған жолдар саны : белгiсiз (Esc - тоқтату)
+xbDlgText071=Қалған жолдар саны : 0
+xbDlgText072=Қалған жолдар саны : %d (Esc - тоқтату)
+xbDlgText080=Алғашқы индекс жоқ екен.#13Оны %s өрісінен жасаймыз ба?
+xbDlgText081= %s өрісі үшiн индекс жасаймыз ба?
+;- Басқалар және Экспорт
+xSOKButton=OK
+xSCancelButton=Доғару
+xSSelectDirCap=Буманы ашу
+xSDirNameCap=Бума аты:
+xSDrivesCap=Дискiлер:
+xSDirsCap=Бумалар:
+xSFilesCap=Файлдар: (*.*)
+xSNetworkCap=Желi...
+xMsgDlgWarning=Ескерту
+xMsgDlgError=Жамандау
+xMsgDlgInformation=Хабарлау
+xMsgDlgConfirm=Келiсу
+xMsgDlgYes=Ия
+xMsgDlgNo=Жоқ
+xMsgDlgOK=OK
+xMsgDlgCancel=Доғару
+xMsgDlgAbort=Тоқтату
+xMsgDlgRetry=Қайталау
+xMsgDlgIgnore=Елемеу
+xMsgDlgAll=Барлығы
+xMsgDlgNoToAll=Ештеңемен келiспеу
+xMsgDlgYesToAll=Барлығымен келiсу
+xMsgDlgHelp=Көмек
+xMsgCaption=Мәлiмет
+xCnfrmCaption=Келiсу
+xDlgOverwrite=Мына файлды алмастырамыз ба:#13%s?
+xExportDlgCap=%s файлына экспорт
+xExportErrNoAsgn=Кiрiс базы жоқ
+xExportErrNoActv=Кiрiс базы ашылмаған
+xExportErrNoName=Шығыс файлының аты жоқ
+xExportErrUnknwn=Экспорт қатесi:#13%s
+;
+;- Проект жолдары
+;
+xvDlgRegExtens=%s программасын XLS,XML,HTML-дардан басқа файл түрлерiн ашуға пайдаланасыз ба?
+xvDlgErrPlugin=Мүмкiн бұл түзелмес қате болар:#13%s#13Программаны жабасыз ба?
+xvDlgDBSave=Баз өзгерiстерiн сақтау керек пе?
+xvDlgSqlSave=SQL текстiн сақтау керек пе?
+xvDlgReindex=Базды қайта индекстеу керек пе?
+xvDlgPack=Базды тығыздау керек пе?
+xvDlgZap=Бүкiл жолдарды өшіру керек пе?
+xvDlgDeleteIdx=Индекс файл(дар)ын өшіресіз бе?
+xvDlgRenCaption=Атын алмастыру
+xvDlgRenPrompt=Файлдың жаңа аты:
+xvDlgUdlTxt=DataLink файлының аты:
+xvInfoText1=Ұзыны:
+xvInfoText2=Өрістері:
+xvInfoText3=Шифры:
+xvInfoText4=Ретi:
+xvInfoText5=Индексi:
+xvInfoText6=[Фильтр]
+xvInfoText7=Тiлi:
+xvInfoText8=[SQL-Фильтр]
+xvMsgOK=Iстелдi.
+xvMsgReady=Дайын
+xvMsgWait=Сабыр...
+xvMsgDriversInfo=Реестр мен Дискiдегi баз драйверлерi:
+xvMsgUserCancel=Операция тоқтатылды.
+xvExportMsg3=Өзiн өзiне алмастыру мүмкiн емес.
+xvMsgRestart=Программаны қайта жiберу керек.
+xvMsgDbfEmptyCP=DBF бет-шифры нөмiрi жоқ (ол нөлге тең)!
+xvMsgDbfConvert=DBF символдарын %s --> %s аудару керек пе?
+xvBadDataSet=Базда дым жол жоқ немесе ол ашылмады.
+xvErrExcelBook=Excel-дiң кестеден басқа жолдарын өшіру керек.
+xvErrRename=%s файлының атын өзгерту қатесi:#13%s
+xvErrBdeCon=BDE базымен байланыс үзiлдi.
+xvErrSchema=Баздың схемасын оқу қатесi:
+xvErrUnknDbf=Ашу кәтеге шықты. Мүмкiн белгiсiз DBF-формат болар.
+xvErrorSelect=SQL Select орындалу кәтелiгi:
+xvErrMemory=Негiзгi ес жеткiлiксiз.
+xvErrCreate=Терезе құру кезiнде күтпеген қате шықты:
+xvErrOpenDBF=БАЗДЫ АШУ КӘТЕГЕ ТАП БОЛДЫ.
+xvErrDestroyWindow=Терезенi өшіру кезiндегi қате:
+xvErrCreateDBF=DBF баз жасау қатесi:
+xvErrCreateIdx=Индекс жасау қатесi:
+xvErrCreateSelfDBF=Қателік. Өзiн өзi жасауға болмайды.
+xvErrCreateCopyDBF=DBF көшiрмесiн жасау қате бердi.
+xvErrModifyDBF=DBF базын өзгерту қатесi:
+xvErrIdxExisting=Базда мұндай индекс бар екен.
+xvErrIdxExpExisting=Базда мұндай индекс өрнегi бар екен.
+xvErrIdxInvalidExp=Индекс өрнегi дұрыс емес.
+xvErrIdxNotExisting=Базда мұндай индекс табылмады.
+xvErrIdxDeleteError=Индекстi өшіру қатесi:
+xvErrFlieExisting=%s файлы бар екен.
+xvErrFormatParam=SCHEMA.INI-дегi "Format" параметрi файлға сәйкес емес.
+xvMenuCreateCaption=%s жасау
+xvMenuSimpleXmlCaption=Жабайы
+xvFormNewTableCaption=%s кесте құрылымы
+xvLblTableNameCaption=&1 Кесте аты:
+xvBtnCreateSQLCaption=&2 SQL құру
+xvLblDecimalSepCaption=CSV/TAB/HTM файлдары үшiн ондық таңба (үтiр)
+xvLblServerName=Сервер аты:
+xvListTabCaption=Тiзiм
+xvDownloadTabCaption=Жүктеу
+xvChkDisableCaption=Уақытша алып тастау керек
+xvErrSrvrNotStared=Құжаттар серверi "%s" жоқ. Жұмысты жалғастырасыз ба?
+xvDlgFileName=Файл аты:
+xvErrorSQL=SQL орындалу кәтелiгi:
+xvMenuHowTo=Қалайша...
+xvMenuTipsFor=Кеңестер...
+xvSendMail=Программистке хат жазасыз ба?
+xvErrNotDelete=%s файлы өшірілмеді.
+xvErrNotFound=%s файлы табылмады.
+xvErrImport=Импорт кәтелiгi:
+xvErrExport=Экспорт кәтелiгi:
+xvErrSQLCreate1=MSSQL сервер файлын құру кәтелiгi:
+xvErrSQLCreate2="%s" базасы MSSQL серверде бар екен.
+xvErrUDLCreate=Data Link файлын құру кәтелiгi:
+xvErrDSNCreate1=ODBC: ODBCCP32.DLL жүктеу қате бердi.
+xvErrDSNCreate2=ODBC: SQLCreateDataSource адресiн сұрау қате бердi.
+xvErrDSNCreate3=ODBC: SQLInstallerError адресiн сұрау қате бердi.
+xvErrMyIdxCreate=MySQL индексiн құру кәтелiгi:
+xvErrBdeSession=BDE-нiң ағымдағы сессиясы құрыды.
+xvDlgUnRegExtens=%s-тiң файлдар түрлерi реестрден алынып тасталды.
+xvMenuRegister=Тiркету...
+xvMenuHide=Жасыру
+xvMenuSort=Реттеу
+xvMenuFind=Iздеу
+xvMenuFilter=Фильтр
+xvMenuODBC=ODBC DSN...
+xvMenuODBCHint=ODBC деректерi
+xvMenuBDE=BDE алиасы
+xvMenuBDEHint=Борланд баздарының алиастары
+xvMenuQuickOpen=Жылдам ашу
+xvMenuQuickOpenHint=Базға сұраныс нәтижесiн шектеу
+xvMenuSize=Енi
+xvMenuSizeHint=Енiн деректер енiне келтiру
+xvChangeFont=&Шрифтiнi өзгерту
+xvErrFileCreate=%s файлын құру мүмкiн болмады.
+xvErrDbfConvert=DBF-тi OEM-нен (MS-DOS) ANSI-ге (Windows) өзгерту мүмкiн емес.
+xvErrFormat=Деректердiң форматы белгiсiз.
+xvErrNetworkPath=Дұрыс емес UNC аты: %s
+xvMenuNet=Байланыс
+xvMenuWizard=Шебер
+xvIncorrectFile=Файлдың форматы дұрыс емес
+xvOnlyOneCopy=Жалғыз бiреуiн ғана орындау

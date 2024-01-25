@@ -1,0 +1,452 @@
+﻿
+[Info]
+Language=Hrvatski (Croatian)
+Translator=Davor Bokun, Trpimir Blažević
+Site=www.xbaseview.com
+Support=www.xbaseview.com/support
+Purchase=www.xbaseview.com/purchase.htm
+Download=www.xbaseview.com/download.htm
+Mail=support@xbaseview.com
+HelpFile=English
+ReleaseDate=April 19, 2007
+;
+;- Resources for Components
+;
+[TfrmVsbleFlds]
+Caption=Vidljiva Polja (Stupci)
+Caption.OKBtn=&U Redu
+Caption.CancelBtn=&Odustani
+Caption.GroupBoxAll=Sva Polja
+Caption.RadioShow=&1 Pokaži
+Caption.RadioHide=&2 Sakrij
+;
+[TfrmFilterDBF]
+Caption=Indeksiraj Filter
+Caption.OKBtn=&U Redu
+Caption.CancelBtn=&Odustani
+Caption.lblFieldName=Vrijednost od %s:
+Caption.lblMin=Minimum:
+Caption.lblMax=Maksimum:
+;
+[TfrmFilterDlg]
+Caption=SQL Filter
+Caption.btnOK=&1 U Redu
+Caption.btnCancel=&2 Odustani
+Caption.btnAdvanced=&3 Dalje ...
+DisplayLabel.mFiltDispLabel=Naziv Polja
+DisplayLabel.mFiltCriteria=Uvjet
+DisplayLabel.mFiltValue=Vrijednost
+DisplayLabel.mFiltAndOr=I/Ili
+;
+[TfrmFilterDlg2]
+Caption=Uredi SQL Filter
+Caption.btnOK=&1 U Redu
+Caption.btnCancel=&2 Odustani
+Caption.btnLoad=&3 Učitaj
+Caption.btnSave=&4 Spremi
+Title.dlgSave=Spremi filter
+;
+[TfrmFindDBF]
+Caption=Pretraži
+Caption.OKBtn=&U Redu
+Caption.CancelBtn=&Odustani
+;
+[TxBaseInd]
+Caption=Odaberi Indeks Datoteka
+Caption.OKBtn=&U Redu
+Caption.CancelBtn=&Odustani
+Caption.SrcLabel=Dostupni Indeksi
+Caption.DstLabel=Odabrani Indeksi
+;
+;- Resources of Project
+;
+[TfmLangPdox]
+Caption=Jezični pogoni za Paradox
+Caption.OKBtn=&Promijeni
+Caption.CancelBtn=Z&atvori
+;
+[TfmCodePage]
+Caption=Kodne stranice za FoxPro/dBase DBF
+Caption.OKBtn=&Promijeni
+Caption.CancelBtn=Z&atvori
+Caption.AnalyzeButton=&Analiziraj
+;
+[TfmXBaseView]
+Caption.mnuRefresh=Osvježi (Ctrl+R)
+Hint.sbSqlLoad=|Učitaj SQL-operator (Shift+Ctrl+L)
+Hint.sbSqlSelect=|Pokreni Odabrani-operator (Shift+Ctrl+R)
+Hint.sbSqlUpdate=|Pokreni SQL-operator (Shift+Ctrl+U)
+Hint.sbSqlSave=|Spremi SQL-operator (Shift+Ctrl+S)
+Hint.mnuOpen=Otvori Direktorij ili Datoteku
+Hint.mnuHistory=Otvori Vrući Popis direktorija
+Hint.mnuClose=Zatvori Skup podataka ili Bazu podataka
+Hint.mnuIndex=Dijaloški okvir za indekse
+Hint.mnuStruct=Dijaloški okvir za strukturu
+Hint.mnuSqlPanel=Okvir za SQL operacije
+Hint.mnuMultiSelect=Višestruki Odabir redaka iz rešetke
+Hint.mnuHideTree=Stablo direktorija i datoteka
+Hint.mnuHideCaption=Navigacijski Gumbi
+Hint.mnuHideHint=Alatni nagovještaji i savjeti
+Hint.mnuExclusive=Isključivi mod
+Hint.mnuReadOnly=Bez uredi moda
+Hint.mnuReindex=Ponovo kreiraj indekse
+Hint.mnuPack=Ukloni označene zapise
+Hint.mnuZap=Ukloni sve zapise
+Hint.mnuRename=Trenutna datoteka, njeni indeksi i memos
+Hint.mnuAutoCP=Jezični kod znakova
+Hint.mnuConvert=Prijevod znakova
+Hint.mnuFileTypes=Registracija vrsta datoteka
+Caption.LanguageMenu=&Jezik
+Caption.mnuConvert=Konvertiraj
+Caption.mnuAbout=O programu ...
+Caption.mnuImport=&Uvoz
+Caption.mnuOpen2=Otvori (Enter)
+Caption.mnuClose2=Zatvori (Ctrl+W)
+Caption.mnuExpand=Razgranaj (Plus)
+Caption.mnuCollapse=Sažmi (Minus)
+Caption.mnuUpLevel=NivoGore (Ctrl+BkSp)
+Caption.mnuSqlClear=Očisti SQL (Ctrl+Y)
+Caption.mnuSqlTmplSel=SQL Odabir (S+Ctrl+J)
+Caption.mnuSqlTmplIns=SQL Umetanje (I+Ctrl+J)
+Caption.mnuSqlTmplUpd=SQL Ažuriranje (U+Ctrl+J)
+Caption.mnuSqlTmplDel=SQL Brisanje (D+Ctrl+J)
+Caption.mnuCopy=Kopiraj (Ctrl+C)
+Caption.mnuPaste=Zalijepi (Ctrl+V)
+Title.OpenImport=Uvoz iz
+Caption.FileMenu=&Datoteke
+Caption.ViewMenu=P&ogled
+Caption.ToolsMenu=Ala&ti
+Caption.ExportMenu=&Izvoz
+Caption.HelpMenu=&Pomoć
+Caption.mnuExit=Izlaz
+Caption.mnuFileTypes=Vrste datoteka
+Caption.mnuOpen=Otvori ...
+Caption.mnuHistory=Povijest ...
+Caption.mnuClose=Zatvori
+Caption.mnuIndex=Indeksi ...
+Caption.mnuStruct=Struktura ...
+Caption.mnuSaveStatus=Spremi
+Caption.mnuSqlPanel=SQL Okvir
+Caption.mnuMultiSelect=Višestruki Odabir
+Caption.mnuHideTree=Okvir Stabla
+Caption.mnuHideCaption=Sakrij Natpise
+Caption.mnuHideHint=Sakrij Savjete Alata
+Caption.mnuExclusive=Isključivo
+Caption.mnuReadOnly=Samo za Čitanje
+Caption.mnuParameters=Mogućnosti ...
+Caption.mnuDriversInfo=DB Pogoni
+Caption.mnuHelpIndex=Indeks ...
+Caption.mnuHelpKeys=Tipkovnica
+Caption.mnuErrorInfo=Informacija o Grešci
+Caption.mnuReindex=Reindeksiraj
+Caption.mnuPack=Pakiranje DB
+Caption.mnuZap=Zap DB
+Caption.mnuRename=Preimenuj
+Caption.mnuAutoCP=Jezik
+Title.SaveSQL=Spremi SQL
+;
+[TfmIndex]
+Caption=Indeksi od %s
+Caption.sbAddTag=&1 Dodaj Indeks
+Caption.sbDelTag=&2 Izbriši Indeks
+Caption.sbDelCDX=&3 Izbriši Datoteku
+Caption.lbInfo=Pričekajte ...
+Caption.btnClose=&4 Zatvori
+Caption.lblFiledsList=Polja:
+Caption.lblIndexes=Indeksi:
+Caption.lblIndexName=Naziv Indeksa (Oznaka ili Datoteka):
+Caption.lblIndexType=Vrsta Indeksa:
+Caption.lblIndexExpr=Izraz Indeksa:
+Caption.lblCollate=Usporedni Naziv:
+Caption.chkUniq=Jedinstveni Indeks
+Caption.chkDesc=Opadajući Indeks
+;
+[TfmStruct]
+Caption=Struktura od %s
+Caption.sbModifyDBF=&1 Modificiraj DBF
+Caption.sbCreateDBF=&2 Kreiraj DBF
+Caption.lbInfo=Pričekajte ...
+Caption.lbDbfType=Vrsta &DBF-a:
+Caption.sbPrintStruct=&3 Ispis Strukture
+Caption.btnClose=&4 Zatvori
+DisplayLabel.fldName=Polje
+DisplayLabel.fldType=Vrsta
+DisplayLabel.fldLen=Veličina
+DisplayLabel.fldDec=Decimale
+;
+[TfmStructPdox]
+Caption=Struktura od %s
+Caption.sbModifyDBF=&1 Spremi Kao
+Caption.sbCreateDBF=&2 Kreiraj Novi
+Caption.lbInfo=Pričekajte ...
+Caption.sbPrintStruct=&3 Ispis Strukture
+Caption.btnClose=&4 Zatvori
+DisplayLabel.fldName=Polje
+DisplayLabel.fldType=Vrsta
+DisplayLabel.fldLen=Veličina
+DisplayLabel.fldPrimKey=Primarni Ključ
+DisplayLabel.fldSecKey=Indeks
+DisplayLabel.fldReq=Zahtjevano
+;
+[TfmLogin]
+Caption=Greška kod povezivanja na %s
+Caption.Label1=&Prijava:
+Caption.Label2=&Zaporka:
+Caption.Button1=&U Redu
+Caption.Button2=&Odustani
+;
+[TfmParams]
+Caption=Mogućnosti
+Caption.OKBtn=U Redu
+Caption.CancelBtn=Odustani
+Caption.Label1=Prijava:
+Caption.Label2=Zaporka:
+Caption.Label4=Znakovni Skup:
+Caption.Label5=SQL Dijalekt:
+Caption.chkRecordCount=Brojanje zapisa za SQL Bazu podataka
+Caption.lblGridColSize=Veličina stupca za polja sa velikim znakovima
+Caption.lblDbfExt2=Drugi nastavak za DBF datoteke
+Caption.lblDelimiter=Graničnik polja za CSV datoteku
+Caption.chkNoHeader=XLS/CSV/TAB/HTM datoteka nema naslov (nazive polja)
+Caption.chkNoMaximize=Ne maksimiziraj kod podizanja
+Caption.chkFlatInterface=Fiksno korisničko sučelje
+Caption.chkSingleClick=Otvori tablicu pomoću jednostrukog klika
+Caption.StartupGroup=Mogućnosti podizanja
+Caption.OthersGroup=Ostale Mogućnosti
+Caption.SerDirGroup=Servisni Direktorij
+Caption.rgSelectDirectory=Odaberi direktorij
+Caption.rgMessageBox=Izvozna Poruka
+Caption.ViewTab=Pogled
+Caption.GeneralTab=Zajedničko
+Caption.DriversTab=Pogoni
+xvSelDirItem0=Preko Borland dijaloškog okvira
+xvSelDirItem1=Preko Windows dijaloškog okvira
+xvMesBoxItem0=Na statusnoj traci
+xvMesBoxItem1=U okviru za poruke
+Caption.LabelHost=Ime Provajdera ili IP:
+Caption.chkIbLoginPrompt=Brza Prijava
+Caption.lblCurrencyFormat=Format
+;
+[TfmHistory]
+Caption=Odaberi direktorij - [Enter] ili dvostruki klik
+Caption.Column1=Direktorij
+Caption.Column2=Brojač
+;
+[TfmWizard]
+Caption=Kreiraj Novo Spajanje
+Caption.btnBack=&1 Nazad
+Caption.btnCancel=&3 Odustani
+Caption.btnConTest=Testiraj Spajanje
+Caption.btnDbSearch=Pronađi Bazu podataka
+Caption.btnFinish=&2 Završetak
+Caption.btnNext1=&2 Dalje
+Caption.btnNext2=&2 Dalje
+Caption.btnNext3=&2 Dalje
+Caption.btnNext4=&2 Dalje
+Caption.btnNext5=&2 Dalje
+Caption.btnNext6=&2 Dalje
+Caption.chkSavePassw=Spremi Zaporku
+Caption.lblConName=Naziv Datoteke Spajanja:
+Caption.lblDbName=Naziv Baze podataka:
+Caption.lblHelp1=Odaberite DBMS
+Caption.lblHelp2=Odredite DBMS parametre
+Caption.lblHelp3=Odredite DBMS parametre
+Caption.lblHelp4=Odredite DBMS parametre
+Caption.lblHelp5=Odaberite bazu podataka
+Caption.lblHelp6=Odredite naziv baze podataka
+Caption.lblHelp7=Odredite naziv datoteke spajanja
+Caption.lblMsg1=Spajanje uspješno
+Caption.lblMsg2=Spajanje nije uspjelo
+Caption.lblMsg3=Nije moguće odabrati popis baza podataka
+Caption.lblHintInterbase=Also use an alias from ALIASES.CONF as Server_Name:Database_Name
+;
+[TfmOracle]
+Caption.Label1=&Oracle SID:
+Caption.Label2=&Login:
+Caption.Label3=&Password:
+Caption.Label4=&UDL File Name:
+Caption.btnOK=&OK
+Caption.btnCancel=&Cancel
+;
+;- Public Resources
+;
+[TxPublicSection]
+;- Navigator
+xBtnCapFirstRecord=Vrh
+xBtnCapPriorRecord=Gore
+xBtnCapNextRecord=Dolje
+xBtnCapLastRecord=Dno
+xBtnCapInsertRecord=Novi
+xBtnCapEditRecord=Uredi
+xBtnCapDeleteRecord=Izbriši
+xBtnCapPostEdit=Spremi
+xBtnCapCancelEdit=Odustani
+xBtnCapFindRecord=Traži
+xBtnCapFilterRecord=Filter
+xBtnCapPrintRecord=Ispis
+xBtnCapRefreshRecord=Osvježi
+xBtnHintFirstRecord=Prvi Zapis
+xBtnHintPriorRecord=Prethodni zapis
+xBtnHintNextRecord=Slijedeći zapis
+xBtnHintLastRecord=Zadnji zapis
+xBtnHintInsertRecord=Umetni zapis
+xBtnHintEditRecord=Uredi zapis
+xBtnHintDeleteRecord=Izbriši zapis
+xBtnHintPostEdit=Spremi zapis
+xBtnHintCancelEdit=Odustani od uređivanja
+xBtnHintFindRecord=Pronađi
+xBtnHintFilterRecord=Filtriraj ili Sakrij stupce
+xBtnHintPrintRecord=Ispis podataka
+xBtnHintRefreshRecord=Osvježi podatke
+xBtnDeleteRecordQuestion=Izbriši zapis?
+xBtnDeleteAllRecordQuestion=Izbriši sve označene zapise?
+;- Dialogs
+xbDlgCaption1=Učitaj filter
+xbDlgText01=Indeks %s ima naziv:#13%s#13Očekivani naziv:#13%s#13Zamijeni ovaj indeks?
+xbDlgText02=Kreiraj %s Složeni Indeks za polje %s?
+xbDlgText031=Indeks za polje %s
+xbDlgText032=Indeksiraj naziv datoteke s nastavkom:
+xbDlgText033=%s Indeksiraj Naziv Datoteke:
+xbDlgText051=Pritisnuta je Esc tipka. Odustani od  rada?
+xbDlgText070=Redaka preostalo : nepoznato (Esc za prekid)
+xbDlgText071=Redaka preostalo : 0
+xbDlgText072=Redaka preostalo: %d (Esc za prekid)
+xbDlgText080=Primarni Indeks nedostaje.#13Kreiraj ga s poljem %s?
+xbDlgText081=Kreiraj indeks za polje %s?
+;- Miscellaneous & Izvoz
+xSOKButton=U Redu
+xSCancelButton=Odustani
+xSSelectDirCap=Odaberi Direktorij
+xSDirNameCap=Naziv Direktorija:
+xSDrivesCap=Pogoni:
+xSDirsCap=Direktoriji:
+xSFilesCap=Datoteke: (*.*)
+xSNetworkCap=Mreža ...
+xMsgDlgWarning=Upozorenje
+xMsgDlgError=Greška
+xMsgDlgInformation=Informacija
+xMsgDlgConfirm=Potvrdi
+xMsgDlgYes=Da
+xMsgDlgNo=Ne
+xMsgDlgOK=U Redu
+xMsgDlgCancel=Odustani
+xMsgDlgAbort=Prekid
+xMsgDlgRetry=Ponovi
+xMsgDlgIgnore=Ignoriraj
+xMsgDlgAll=Sve
+xMsgDlgNoToAll=Ne za Sve
+xMsgDlgYesToAll=Da za Sve
+xMsgDlgHelp=Pomoć
+xMsgCaption=Informacija
+xCnfrmCaption=Potvrdi
+xDlgOverwrite=Prepiši preko postojeće datoteke:#13%s?
+xExportDlgCap=Izvoz u %s
+xExportErrNoAsgn=Uređaj za prijenos podataka nije dodijeljen
+xExportErrNoActv=Uređaj za prijenos podataka nije aktivan
+xExportErrNoName=Naziv Datoteke za upisivanje u nedostaje
+xExportErrUnknwn=Greška kod izvoza:#13%s
+;
+;- Strings of Project
+;
+xvDlgRegExtens=Koristi %s da otvoriš sve njene datotečne nastavke, osim XLS,XML,HTML?
+xvDlgErrPlugin=Ovo je možda kobna greška:#13%s#13Da li želite da zatvorite program?
+xvDlgDBSave=Spremi promjene u bazu podataka?
+xvDlgSqlSave=Spremi SQL tekst?
+xvDlgReindex=Reindeksiraj datoteku?
+xvDlgPack=Pakiranje datoteke?
+xvDlgZap=Izbriši sve zapise?
+xvDlgDeleteIdx=Izbriši indeks datoteke(a)?
+xvDlgRenCaption=Preimenuj
+xvDlgRenPrompt=Unesite novi naziv:
+xvDlgUdlTxt=DataLink Naziv Datoteke:
+xvInfoText1=Dužina:
+xvInfoText2=Polja:
+xvInfoText3=Kodna Stranica:
+xvInfoText4=Usporedni:
+xvInfoText5=Indeks:
+xvInfoText6=[Filter]
+xvInfoText7=Jezik:
+xvInfoText8=[SQL-Filter]
+xvMsgOK=Završeno.
+xvMsgReady=Spreman
+xvMsgWait=Pričekajte ...
+xvMsgDriversInfo=Pogoni baze podataka iz Registrija i Diska:
+xvMsgUserCancel=Operacija je prekinuta.
+xvExportMsg3=Ne mogu zamijeniti samog sebe.
+xvMsgRestart=Program mora biti ponovo pokrenut.
+xvMsgDbfEmptyCP=Kodna stranica DBF-a je prazna (nula)!
+xvMsgDbfConvert=Prevedi znakove DBF-a iz %s u %s?
+xvBadDataSet=Baza podataka je prazna ili nije otvorena.
+xvErrExcelBook=Izbriši sve retke Excela, osim tabele.
+xvErrRename=Greška kod preimenovanja datoteke %s u:#13%s
+xvErrBdeCon=BDE povezivanje nije uspjelo.
+xvErrSchema=Greška kod čitanja sheme baze podataka:
+xvErrUnknDbf=Greška kod otvaranja, možda je nepoznati format DBF-a.
+xvErrorSelect=Greška kod SQL Odabira:
+xvErrMemory=Nema dovoljno memorije.
+xvErrCreate=Neočekivana greška kod kreiranja prozora:
+xvErrOpenDBF=GREŠKA KOD OTVARANJA BAZE PODATAKA.
+xvErrDestroyWindow=Greška kod uništavanja prozora programa:
+xvErrCreateDBF=Greška kod kreiranja DBF-a:
+xvErrCreateIdx=Greška kod kreiranja indeksa:
+xvErrCreateSelfDBF=Greška. Nije mogao kreirati samog sebe.
+xvErrCreateCopyDBF=Greška kod kreiranja kopije DBF-a.
+xvErrModifyDBF=Greška kod modificiranja DBF-a:
+xvErrIdxExisting=Indeks već postoji.
+xvErrIdxExpExisting=Naziv za indeks već postoji.
+xvErrIdxInvalidExp=Neispravan naziv za indeks.
+xvErrIdxNotExisting=Naziv indeksa nije pronađen.
+xvErrIdxDeleteError=Greška kod brisanja indeksa:
+xvErrFlieExisting=Datoteka %s već postoji.
+xvErrFormatParam=Parametar "Format" iz SCHEMA.INI ne podudara se s nastavkom.
+xvMenuCreateCaption=Kreiraj %s
+xvMenuSimpleXmlCaption=Jednostavan
+xvFormNewTableCaption=Nova struktura tabele za %s
+xvLblTableNameCaption=&1 Naziv Tabele:
+xvBtnCreateSQLCaption=&2 Kreiraj SQL
+xvLblDecimalSepCaption=Decimalni separator za CSV/TAB/HTM datoteke:
+xvLblServerName=Naziv Servera:
+xvListTabCaption=Popis
+xvDownloadTabCaption=Preuzimanje
+xvChkDisableCaption=Privremeno onemogući
+xvErrSrvrNotStared=Server baze podataka "%s" nije pokrenut. Nastavi?
+xvDlgFileName=Naziv Datoteke:
+xvErrorSQL=SQL Greška:
+xvMenuHowTo=Kako da ...
+xvMenuTipsFor=Savjeti za ...
+xvSendMail=Pošaljite jedan e-mail razvojnom programeru?
+xvErrNotDelete=Nije moguće izbrisati datoteku %s.
+xvErrNotFound=Datoteka %s nije pronađena.
+xvErrImport=Greška kod uvoza:
+xvErrExport=Greška kod izvoza:
+xvErrSQLCreate1=Greška kod kreiranja MSSQL-Server datoteke:
+xvErrSQLCreate2=MSSQL Server Baze podataka "%s" već postoji.
+xvErrUDLCreate=Greška kod kreiranja Data Link datoteke:
+xvErrDSNCreate1=ODBC: Greška kod učitavanja ODBCCP32.DLL.
+xvErrDSNCreate2=ODBC: Greška kod dobivanja adrese za SQLCreateDataSource
+xvErrDSNCreate3=ODBC: Greška kod dobivanja adrese za SQLInstallerError
+xvErrMyIdxCreate=Greška kod kreiranja MySQL indeksa:
+xvErrBdeSession=Trenutna BDE sesija je izgubljena.
+xvDlgUnRegExtens=Svi datotečni nastavci od %s su neregistrirani.
+xvMenuRegister=Registriraj ...
+xvMenuHide=Sakrij
+xvMenuSort=Razvrstaj
+xvMenuFind=Traži
+xvMenuFilter=Filter
+xvMenuODBC=ODBC DSN ...
+xvMenuODBCHint=ODBC Izvori Podataka
+xvMenuBDE=BDE Pseudonimi
+xvMenuBDEHint=Pseudonimi Borland Baze podataka
+xvMenuQuickOpen=Brzo Otvaranje
+xvMenuQuickOpenHint=Ograničavanje rezultata za Izbor Upita
+xvMenuSize=Veličina
+xvMenuSizeHint=Podesi po veličini (u Mreži Baze podataka)
+xvChangeFont=&Promijeni font
+xvErrFileCreate=Nije moguće kreirati datoteku %s.
+xvErrDbfConvert=Nije moguće pretvoriti DBF iz OEM (MS-DOS) u ANSI (Windows).
+xvErrFormat=Nepoznati format podataka.
+xvErrNetworkPath=Neispravan UNC naziv: %s
+xvMenuNet=Spajanje
+xvMenuWizard=Čarobnjak
+xvIncorrectFile=Datoteka ima krivi format
+xvOnlyOneCopy=Samo jedna kopija u istom trenutku

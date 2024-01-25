@@ -1,0 +1,452 @@
+﻿
+[Info]
+Language=Français (French)
+Translator=Franck Gartemann, Claude Charries
+Site=www.xbaseview.com
+Support=www.xbaseview.com/support
+Purchase=www.xbaseview.com/purchase.htm
+Download=www.xbaseview.com/download.htm
+Mail=support@xbaseview.com
+HelpFile=English
+ReleaseDate=Nov 17, 2006
+;
+;- Ressources pour les Composants
+;
+[TfrmVsbleFlds]
+Caption=Champ (Colonne) visible
+Caption.OKBtn=C&onfirmer
+Caption.CancelBtn=&Annuler
+Caption.GroupBoxAll=Tous les champs
+Caption.RadioShow=&1 Afficher
+Caption.RadioHide=&2 Cacher
+;
+[TfrmFilterDBF]
+Caption=Filtre d'Index
+Caption.OKBtn=C&onfirmer
+Caption.CancelBtn=&Annuler
+Caption.lblFieldName=Valeurs de %s:
+Caption.lblMin=Minimum:
+Caption.lblMax=Maximum:
+;
+[TfrmFilterDlg]
+Caption=Filtre SQL
+Caption.btnOK=&1 Confirmer
+Caption.btnCancel=&2 Annuler
+Caption.btnAdvanced=&3 Suivant...
+DisplayLabel.mFiltDispLabel=Nom du champ
+DisplayLabel.mFiltCriteria=Condition
+DisplayLabel.mFiltValue=Valeur
+DisplayLabel.mFiltAndOr=Et¦Ou
+;
+[TfrmFilterDlg2]
+Caption=Éditer Filtre SQL
+Caption.btnOK=&1 Confirmer
+Caption.btnCancel=&2 Annuler
+Caption.btnLoad=&3 Charger
+Caption.btnSave=&4 Enregistrer
+Title.dlgSave=Enregistrer filtre
+;
+[TfrmFindDBF]
+Caption=Chercher
+Caption.OKBtn=C&onfirmer
+Caption.CancelBtn=&Annuler
+;
+[TxBaseInd]
+Caption=Sélectionner Fichier d'index
+Caption.OKBtn=&OK
+Caption.CancelBtn=&Annuler
+Caption.SrcLabel=Index disponibles
+Caption.DstLabel=Index sélectionnés
+;
+[TfmLangPdox]
+Caption=Pilotes de langues Paradox
+Caption.OKBtn=&Changer
+Caption.CancelBtn=Fermer
+;
+[TfmCodePage]
+Caption=Page de code DBF
+Caption.OKBtn=&Changer
+Caption.CancelBtn=Fermer
+Caption.AnalyzeButton=Vérifier
+;
+;- Ressources pour le Project
+;
+[TfmXBaseView]
+Caption.mnuRefresh=Rafraîchir (Ctrl+R)
+Hint.sbSqlLoad=|Charger opérateur SQL (Maj+Ctrl+L)
+Hint.sbSqlSelect=|Lancer opérateur Select (Maj+Ctrl+R)
+Hint.sbSqlUpdate=|Lancer opérateur SQL (Maj+Ctrl+U)
+Hint.sbSqlSave=|Enregistrer opérateur SQL (Maj+Ctrl+S)
+Hint.mnuOpen=Ouvrir un répertoire ou un fichier
+Hint.mnuHistory=Ouvrir liste répertoires utilisés
+Hint.mnuClose=Fermer la Base
+Hint.mnuIndex=Dialogue pour index
+Hint.mnuStruct=Dialogue pour structure
+Hint.mnuSqlPanel=Panneau pour opérations SQL
+Hint.mnuMultiSelect=Sélection de plusieurs lignes
+Hint.mnuHideTree=Arbres des Répertoires - Fichiers
+Hint.mnuHideCaption=Boutons de navigation
+Hint.mnuHideHint=Astuces
+Hint.mnuExclusive=Ouvrir les données en exclusif
+Hint.mnuReadOnly=Ouvrir les données en Lecture seule
+Hint.mnuReindex=Recréer les index
+Hint.mnuPack=Effacer les entrées sélectionnées
+Hint.mnuZap=Effacer toutes les entrées
+Hint.mnuRename=Un fichier, ses index et autres
+Hint.mnuAutoCP=Format de langue pour les chaînes
+Hint.mnuConvert=Traduction des chaînes
+Hint.mnuFileTypes=Enregistrer les extensions pour xBaseView
+Caption.LanguageMenu=Langue
+Caption.mnuConvert=Convertir
+Caption.mnuAbout=À propos...
+Caption.mnuImport=Importer
+Caption.mnuOpen2=Ouvrir (Entrée)
+Caption.mnuClose2=Fermer (Ctrl+W)
+Caption.mnuExpand=Développer (Plus)
+Caption.mnuCollapse=Réduire (Moins)
+Caption.mnuUpLevel=En Haut (Ctrl+RetEffac.)
+Caption.mnuSqlClear=Effacer SQL (Ctrl+Y)
+Caption.mnuSqlTmplSel=Sélectionner SQL (S+Ctrl+J)
+Caption.mnuSqlTmplIns=Insérer SQL (I+Ctrl+J)
+Caption.mnuSqlTmplUpd=Rafraîchir SQL (U+Ctrl+J)
+Caption.mnuSqlTmplDel=Effacer SQL (D+Ctrl+J)
+Caption.mnuCopy=Copier (Ctrl+C)
+Caption.mnuPaste=Coller (Ctrl+V)
+Title.OpenImport=Importer depuis
+Caption.FileMenu=Fichier
+Caption.ViewMenu=Voir
+Caption.ToolsMenu=Outils
+Caption.ExportMenu=Exporter
+Caption.HelpMenu=Aide
+Caption.mnuExit=Quitter
+Caption.mnuFileTypes=Type de fichier
+Caption.mnuOpen=Ouvrir...
+Caption.mnuHistory=Historique...
+Caption.mnuClose=Fermer
+Caption.mnuIndex=Index...
+Caption.mnuStruct=Structure...
+Caption.mnuSaveStatus=Enregistrer
+Caption.mnuSqlPanel=Panneau SQL
+Caption.mnuMultiSelect=Sélection multiple
+Caption.mnuHideTree=Afficher l'arbre
+Caption.mnuHideCaption=Cacher la légende
+Caption.mnuHideHint=Cacher les astuces
+Caption.mnuExclusive=Exclusif
+Caption.mnuReadOnly=Lecture seule
+Caption.mnuParameters=Options...
+Caption.mnuDriversInfo=Pilotes BD
+Caption.mnuHelpIndex=Index...
+Caption.mnuHelpKeys=Clavier
+Caption.mnuErrorInfo=Informations d'erreur
+Caption.mnuReindex=Recréer index
+Caption.mnuPack=Compresser BD
+Caption.mnuZap=Effacer BD
+Caption.mnuRename=Renommer
+Caption.mnuAutoCP=Langue
+Title.SaveSQL=Enregistrer SQL
+;
+[TfmIndex]
+Caption=Index de %s
+Caption.sbAddTag=&1 Ajouter index
+Caption.sbDelTag=&2 Effacer index
+Caption.sbDelCDX=&3 Supprimer fichier
+Caption.lbInfo=Patientez...
+Caption.btnClose=&4 Fermer
+Caption.lblFiledsList=Liste des champs:
+Caption.lblIndexes=Index :
+Caption.lblIndexName=Nom de l'index (balise ou fichier) :
+Caption.lblIndexType=Type d'Index:
+Caption.lblIndexExpr=Expression d'index :
+Caption.lblCollate=Assembler nom :
+Caption.chkUniq=Index unique
+Caption.chkDesc=Index décroissant
+;
+[TfmStruct]
+Caption=Structure de %s
+Caption.sbModifyDBF=&1 Modifier DBF
+Caption.sbCreateDBF=&2 Créer DBF
+Caption.lbInfo=Patientez...
+Caption.lbDbfType=Type de la base:
+Caption.sbPrintStruct=&3 Imprimer structure
+Caption.btnClose=&4 Fermer
+DisplayLabel.fldName=Champ
+DisplayLabel.fldType=Type
+DisplayLabel.fldLen=Taille
+DisplayLabel.fldDec=Décimal
+;
+[TfmStructPdox]
+Caption=Structure de %s
+Caption.sbModifyDBF=&1 Enregistrer sous
+Caption.sbCreateDBF=&2 Créer nouvelle
+Caption.lbInfo=Patientez...
+Caption.sbPrintStruct=&3 Imprimer Structure
+Caption.btnClose=&4 Fermer
+DisplayLabel.fldName=Champs
+DisplayLabel.fldType=Type
+DisplayLabel.fldLen=Taille
+DisplayLabel.fldPrimKey=Clé primaire
+DisplayLabel.fldSecKey=Index
+DisplayLabel.fldReq=Requis
+;
+[TfmLogin]
+Caption=Erreur de connexion à %s
+Caption.Label1=Utilisateur :
+Caption.Label2=Mot de passe :
+Caption.Button1=Continuer
+Caption.Button2=Annuler
+;
+[TfmParams]
+Caption=Options
+Caption.OKBtn=Confirmer
+Caption.CancelBtn=Annuler
+Caption.Label1=Utilisateur :
+Caption.Label2=Mot de passe :
+Caption.Label4=Type de caractère s:
+Caption.Label5=SQL dialect:
+Caption.chkRecordCount=Nombre d'enregistrements de la base SQL
+Caption.lblGridColSize=Taille des colonnes pour Excel et fichier texte
+Caption.lblDbfExt2=Deuxième extension pour fichier DBF
+Caption.lblDelimiter=Délimiteur de champ pour fichier CSV
+Caption.chkNoHeader=Le fichier XLS/CSV/TAB n'a pas d'en-tête (nom des champs)
+Caption.chkNoMaximize=Lancer en taille réduite
+Caption.chkFlatInterface=Interface utilisateur a plat
+Caption.chkSingleClick=Ouvrir table par simple clic
+Caption.StartupGroup=Options de démarrage
+Caption.OthersGroup=Autres options
+Caption.SerDirGroup=Répertoire des services
+Caption.rgSelectDirectory=Sélectionner répertoire
+Caption.rgMessageBox=Exporter le message
+Caption.ViewTab=Voir
+Caption.GeneralTab=Général
+Caption.DriversTab=Pilotes
+xvSelDirItem0=via le dialogue Borland
+xvSelDirItem1=via le dialogue Windows
+xvMesBoxItem0=Sur la barre d'état
+xvMesBoxItem1=Dans un encart (MsgBox)
+Caption.LabelHost=Nom de l'hôte ou IP:
+Caption.chkIbLoginPrompt=Demande de connexion
+Caption.lblCurrencyFormat=Format
+;
+[TfmHistory]
+Caption=Sélectionner Répertoire - [Entrée] ou double-clic
+Caption.Column1=Répertoire
+Caption.Column2=Compteur
+;
+[TfmWizard]
+Caption=Créer une connexion
+Caption.btnBack=&1 Dos
+Caption.btnCancel=&3 Annuler
+Caption.btnConTest=Test de connexion
+Caption.btnDbSearch=Base de données de recherche
+Caption.btnFinish=&2 Finition
+Caption.btnNext1=&2 Suivant
+Caption.btnNext2=&2 Suivant
+Caption.btnNext3=&2 Suivant
+Caption.btnNext4=&2 Suivant
+Caption.btnNext5=&2 Suivant
+Caption.btnNext6=&2 Suivant
+Caption.chkSavePassw=Sauvegarder mot de passe
+Caption.lblConName=Nom de fichier de connexion:
+Caption.lblDbName=Nom de la base:
+Caption.lblHelp1=Sélectionnez le SGBD
+Caption.lblHelp2=Spécifiez les paramètres SGBD
+Caption.lblHelp3=Spécifiez les paramètres SGBD
+Caption.lblHelp4=Spécifiez les paramètres SGBD
+Caption.lblHelp5=Sélectionnez la base de données
+Caption.lblHelp6=Spécifiez le nom de base de données
+Caption.lblHelp7=Spécifiez le nom du fichier de connexion
+Caption.lblMsg1=Connexion réussie
+Caption.lblMsg2=La connexion a échoué
+Caption.lblMsg3=Impossible de sélectionner une liste de bases de données
+Caption.lblHintInterbase=Also use an alias from ALIASES.CONF as Server_Name:Database_Name
+;
+[TfmOracle]
+Caption.Label1=&Oracle SID:
+Caption.Label2=&Login:
+Caption.Label3=&Password:
+Caption.Label4=&UDL File Name:
+Caption.btnOK=&OK
+Caption.btnCancel=&Cancel
+;
+;-Ressources  Publiques
+;
+[TxPublicSection]
+;- Navigation
+xBtnCapFirstRecord=En Haut
+xBtnCapPriorRecord=Monter
+xBtnCapNextRecord=Descendre
+xBtnCapLastRecord=En Bas
+xBtnCapInsertRecord=Nouveau
+xBtnCapEditRecord=Éditer
+xBtnCapDeleteRecord=Effacer
+xBtnCapPostEdit=Enregistrer
+xBtnCapCancelEdit=Annuler
+xBtnCapFindRecord=Chercher
+xBtnCapFilterRecord=Filtre
+xBtnCapPrintRecord=Imprimer
+xBtnCapRefreshRecord=Rafraîchir
+xBtnHintFirstRecord=Premier enregistrement
+xBtnHintPriorRecord=Enregistrement précédent
+xBtnHintNextRecord=Enregistrement suivant
+xBtnHintLastRecord=Dernier enregistrement
+xBtnHintInsertRecord=Insérer enregistrement
+xBtnHintEditRecord=Éditer enregistrement
+xBtnHintDeleteRecord=Effacer enregistrement
+xBtnHintPostEdit=Sauvegarder l'enregistrement
+xBtnHintCancelEdit=Annuler l'édition
+xBtnHintFindRecord=Chercher
+xBtnHintFilterRecord=Filtrer ou cacher les colonnes
+xBtnHintPrintRecord=Imprimer données
+xBtnHintRefreshRecord=Rafraîchir les données
+xBtnDeleteRecordQuestion=Effacer l'enregistrement?
+xBtnDeleteAllRecordQuestion=Effacer tous les enregistrements sélectionnés ?
+;- Dialogues
+xbDlgCaption1=Charger filtre
+xbDlgText01=L'index %s comporte les expressions:#13%s#13Expressions attendues :#13%s#13Remplacer cet index?
+xbDlgText02=Créer %s Composer l'index pour le champ %s?
+xbDlgText031=Index pour le champ %s
+xbDlgText032=Nom du fichier d'index avec extension :
+xbDlgText033=%s Nom du fichier d'index :
+xbDlgText051=Touche Échap pressée. Annuler travail?
+xbDlgText070=N. ligne(s) restante(s) : inconnu (Appuyer sur Échap pour arrêter)
+xbDlgText071=Lignes restantes : 0
+xbDlgText072=Ligne(s) restante(s): %d (Appuyer sur Échap pour arrêter)
+xbDlgText080=Index primaire manquant.#13Le créer avec le champ %s?
+xbDlgText081=Créer index pour le champ %s?
+;- Divers et Exportation
+xSOKButton=Confirmer
+xSCancelButton=Annuler
+xSSelectDirCap=Sélectionner répertoire
+xSDirNameCap=Nom du répertoire:
+xSDrivesCap=Disques :
+xSDirsCap=Répertoires :
+xSFilesCap=Fichiers: (*.*)
+xSNetworkCap=Réseau...
+xMsgDlgWarning=Attention !
+xMsgDlgError=Erreur
+xMsgDlgInformation=Informations
+xMsgDlgConfirm=Confirmation
+xMsgDlgYes=Oui
+xMsgDlgNo=Non
+xMsgDlgOK=Confirmer
+xMsgDlgCancel=Annuler
+xMsgDlgAbort=Arrêter
+xMsgDlgRetry=Essayer encore
+xMsgDlgIgnore=Ignorer
+xMsgDlgAll=Tous
+xMsgDlgNoToAll=Non pour tous
+xMsgDlgYesToAll=Oui pour tous
+xMsgDlgHelp=Aide
+xMsgCaption=Informations
+xCnfrmCaption=Confirmation
+xDlgOverwrite=Écraser le fichier existant:#13%s?
+xExportDlgCap=Exporter vers %s
+xExportErrNoAsgn=Jeu de données pas assigné
+xExportErrNoActv=Jeu de Données inactif
+xExportErrNoName=Il manque le nom du fichier à écrire
+xExportErrUnknwn=Erreur d'exportation:#13%s
+;
+;- Chaînes du projet
+;
+xvDlgRegExtens=Utiliser %s pour ouvrir les fichiers ayant ces extensions, sauf XLS,XML,HTML?
+xvDlgErrPlugin=Peut-être une erreur fatale :#13%s#13Voulez Vous fermer le module?
+xvDlgDBSave=Enregistrer changement dans la base de données?
+xvDlgSqlSave=Enregistrer texte SQL?
+xvDlgReindex=Ré-indexer la base?
+xvDlgPack=Compresser la base?
+xvDlgZap=Effacer tous les enregistrements de la base?
+xvDlgDeleteIdx=Effacer fichier(s) d'Index?
+xvDlgRenCaption=Renommer
+xvDlgRenPrompt=Nouveau nom :
+xvDlgUdlTxt=Nom du fichier lien de données:
+xvInfoText1=Longueur:
+xvInfoText2=Champs:
+xvInfoText3=CP :
+xvInfoText4=Assembler :
+xvInfoText5=Index :
+xvInfoText6=[Filtre]
+xvInfoText7=Langue :
+xvInfoText8=[Filtre SQL]
+xvMsgOK=Enregistrement réussi.
+xvMsgReady=Prêt
+xvMsgWait=Patientez...
+xvMsgDriversInfo=Pilotes base de données du registre et disques :
+xvMsgUserCancel=Accès à la base annulé par l'utilisateur.
+xvExportMsg3=Ne peut pas se remplacer tout seul.
+xvMsgRestart=Le programme doit être redémarré.
+xvMsgDbfEmptyCP=Page de code vide (zéro) pour DBF!
+xvMsgDbfConvert=Traduire les caractères DBF de %s vers %s?
+xvBadDataSet=La base est vide ou fermée.
+xvErrExcelBook=Effacer toutes les  lignes Excel, sauf la table.
+xvErrRename=Erreur en renommant le fichier %s:#13%s
+xvErrBdeCon=Échec de connexion BDE.
+xvErrSchema=Erreur de lecture du schéma de la base :
+xvErrUnknDbf=Erreur d'ouverture du DBF, peut-être format inconnu.
+xvErrorSelect=Erreur sélection SQL :
+xvErrMemory=Mémoire insuffisante.
+xvErrCreate=Erreur inopinée dans la création de la fenêtre :
+xvErrOpenDBF=ERREUR D'OUVERTURE DE LA BASE.
+xvErrDestroyWindow=Erreur durant la destruction de la fenêtre du module :
+xvErrCreateDBF=Erreur de création du DBF :
+xvErrCreateIdx=Erreur de création de l'index :
+xvErrCreateSelfDBF=Erreur: pas de création autom.
+xvErrCreateCopyDBF=Erreur création de copie du DBF.
+xvErrModifyDBF=Erreur modification DBF :
+xvErrIdxExisting=L'index existe déjà
+xvErrIdxExpExisting=Expression de l'index existe déjà.
+xvErrIdxInvalidExp=Erreur expression d'index.
+xvErrIdxNotExisting=Nom de l'index introuvable.
+xvErrIdxDeleteError=Erreur dans la suppression de l'index :
+xvErrFlieExisting=Fichier %s déjà existant.
+xvErrFormatParam=Paramètre "Format" du SCHEMA.INI ne correspond pas à l'extension.
+xvMenuCreateCaption=Créer %s
+xvMenuSimpleXmlCaption=Simple
+xvFormNewTableCaption=Nouvelle structure de table pour %s
+xvLblTableNameCaption=&1 Nom de la table:
+xvBtnCreateSQLCaption=&2 Créer SQL
+xvLblDecimalSepCaption=Séparateur décimal pour fichiers CSV/TAB/HTM  :
+xvLblServerName=Nom du serveur :
+xvListTabCaption=Liste
+xvDownloadTabCaption=Télécharger
+xvChkDisableCaption=Désactiver provisoirement
+xvErrSrvrNotStared=Le serveur de base de données "%s" n'est pas démarré. Continuer?
+xvDlgFileName=Nom de fichier :
+xvErrorSQL=Erreur SQL :
+xvMenuHowTo=Comment faire...
+xvMenuTipsFor=Astuce pour...
+xvSendMail=Envoyer un courriel au développeur?
+xvErrNotDelete=Ne peut pas supprimer le fichier %s.
+xvErrNotFound=Fichier %s introuvable.
+xvErrImport=Erreur lors de l'importation:
+xvErrExport=Erreur pendant l'export:
+xvErrSQLCreate1=Erreur de création de fichier MSSQL-Server:
+xvErrSQLCreate2=La base de donnée %s du serveur MSSQL existe déjà.
+xvErrUDLCreate=Erreur lors de la création du fichier de données (lien):
+xvErrDSNCreate1=ODBC: Erreur au chargement de ODBCCP32.DLL.
+xvErrDSNCreate2=ODBC: Erreur d'adressage pour SQLCreateDataSource
+xvErrDSNCreate3=ODBC: Erreur d'adressage pour SQLInstallerError
+xvErrMyIdxCreate=Erreur MySQL pendant l'indexage:
+xvErrBdeSession=La session BDE est perdue.
+xvDlgUnRegExtens=Toutes les extensions de fichiers ne seront plus lues avec %s .
+xvMenuRegister=Enregistrement...
+xvMenuHide=Cacher
+xvMenuSort=Trier
+xvMenuFind=Chercher
+xvMenuFilter=Filtre
+xvMenuODBC=ODBC DSN...
+xvMenuODBCHint=Source de donnees ODBC
+xvMenuBDE=Alias BDE
+xvMenuBDEHint=Alias Base de donnees Borland
+xvMenuQuickOpen=Ouverture rapide
+xvMenuQuickOpenHint=Restreindre les resultats des requetes SELECT
+xvMenuSize=Taille
+xvMenuSizeHint=Adjuster la taille (de la grille)
+xvChangeFont=&Changer la police
+xvErrFileCreate=Ne peut pas creer le fichier %s.
+xvErrDbfConvert=Ne peut pas convertir DBF a partir d'OEM (MS-DOS) vers ANSI (Windows).
+xvErrFormat=Format de donnees inconnu.
+xvErrNetworkPath=Nom UNC invalide: %s
+xvMenuNet=Connexions
+xvMenuWizard=Magicien
+xvIncorrectFile=File has incorrect format
+xvOnlyOneCopy=Un seul exemplaire à la fois
