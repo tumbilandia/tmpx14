@@ -1,0 +1,22 @@
+[rra@quay ansible]$ vi print_variables2.yaml 
+---
+- hosts: localhost
+  vars:
+    - username: domainxx
+    - unicode: "Sosa did fine.\u263A"
+    - home: /home/sammy   
+    - nickname: "\"bar\"" # \"bar\"\n"
+    - martin:
+        domname: domain
+        sep: '\'
+        usrname: rra
+  tasks:
+    - name: print variables
+      debug:
+#        msg: |
+#          Username: {{ username }}
+#          Home dir: {{ home }}
+#          Unicode: {{ unicode }}
+#          Nickname: {{ nickname }}
+#          Martin: {{ martin.domname }}{{ martin.sep }}{{ martin.usrname }}
+        msg: "Martin: {{ martin.domname }}{{ martin.sep }}{{ martin.usrname }}"
